@@ -4,9 +4,9 @@ import {
     Section 
 } from './styled-components/Portfolio';
 
-const Portfolio = () => {
+const Portfolio = props => {
     return (
-        <Section>
+        <Section id={props.id}>
             <h1> Portfolio </h1>          
         </Section>
     );

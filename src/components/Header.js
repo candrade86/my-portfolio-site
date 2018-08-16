@@ -2,6 +2,7 @@ import React from 'react';
 
 import Particles from 'react-particles-js';
 
+import './animation-css/Header.css';
 import {
     Section,
     HeaderTitle
@@ -119,8 +120,8 @@ const particleOpt = {
     }
         
     
-const Header = () => {
-    return ( <Section> 
+const Header = props => {
+    return ( <Section id={props.id}> 
                 
 
                 <Particles 
@@ -132,7 +133,7 @@ const Header = () => {
                         zIndex: '1'
                     }}
                 />
-                <HeaderTitle>Header</HeaderTitle>
+                <HeaderTitle className="title-animation">Carlos' Title Text</HeaderTitle>
                 
               
              </Section>

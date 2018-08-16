@@ -7,6 +7,15 @@ export const Section = styled.section`
     border: solid red;
  
 `
-export const HeaderTitle = styled.h1`
+export const HeaderTitle = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 5rem;
+    text-align: center;
+
+
+    border: solid purple;
 
 `
