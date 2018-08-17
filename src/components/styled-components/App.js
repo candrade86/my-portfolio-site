@@ -10,8 +10,8 @@ export const AppWrapper = styled.div`
 
 export const Nav = styled.nav`
     position: relative;
-    /* top: 0; */
-    /* z-index: 100; */
+    top: 0;
+    z-index: 100;
     display: flex;
     justify-content: space-around;
     align-items: center;

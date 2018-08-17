@@ -8,5 +8,5 @@ export const Section = styled.section`
 
     background: blue;
 
-    border: solid green;
+    /* border: solid green; */
 `

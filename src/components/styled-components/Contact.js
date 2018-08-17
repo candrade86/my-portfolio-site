@@ -6,5 +6,5 @@ export const Section = styled.section`
     height: 100vh;
 
     background: yellow;
-    border: solid green;
+    /* border: solid green; */
 `

@@ -7,7 +7,7 @@ export const Section = styled.section`
     margin: 0;
     height: 100vh;
 
-    border: solid red;
+    /* border: solid red; */
  
 `
 export const HeaderTitle = styled.div`
@@ -19,6 +19,6 @@ export const HeaderTitle = styled.div`
     text-align: center;
 
 
-    border: solid purple;
+    /* border: solid purple; */
 
 `
