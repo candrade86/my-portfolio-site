@@ -11,12 +11,12 @@ export const AppWrapper = styled.div`
 export const Nav = styled.nav`
     position: relative;
     top: 0;
-    z-index: 100;
+    /* z-index: 100; */
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    /* align-items: center; */
     font-size: 2rem;
-    padding: 20px;
+    /* padding: 20px; */
 `
 export const LinkWrap = styled.div`
   
