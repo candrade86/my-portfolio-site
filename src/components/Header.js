@@ -134,7 +134,7 @@ const Header = props => {
                     }}
                 />
                 <HeaderTitle className="title-animation">Carlos' Title Text</HeaderTitle>
-                
+                {props.children}
               
              </Section>
     );

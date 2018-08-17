@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
+    position: relative;
+    z-index: 6;
+    top: 0;
     margin: 0;
     height: 100vh;
 
