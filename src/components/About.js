@@ -5,16 +5,23 @@ import 'animate.css/animate.min.css';
 
 import { 
     Section,
+    LeftDiv,
+    RightDiv,
     Text 
 } from './styled-components/About';
 
 const About = props => {
     return (
         <Section id={props.id}>
-            <h1> About </h1>  
-            <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight">
+            <LeftDiv>
+                <Text> About </Text>
+            </LeftDiv>
+            <RightDiv>
+                <Text> Picture </Text>
+            </RightDiv>
+            {/* <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight">
                 <Text>Some Text</Text>
-            </ScrollAnimation>        
+            </ScrollAnimation>         */}
         </Section>
     );
 }
