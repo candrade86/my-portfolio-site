@@ -9,14 +9,22 @@ export const AppWrapper = styled.div`
 `
 
 export const Nav = styled.nav`
-    position: relative;
-    top: 0;
-    /* z-index: 100; */
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
+    align-items: center;
     font-size: 2rem;
-    /* padding: 20px; */
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 10%;
+    margin: 0;
+    top: 0;
+    background: #212121;
+    color: #ccc;
+    text-align: center;
+
+    /* border: solid pink; */
+    
 `
 export const LinkWrap = styled.div`
   

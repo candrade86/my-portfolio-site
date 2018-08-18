@@ -128,9 +128,10 @@ const Header = props => {
                     params={particleOpt}
                     style={{
                         position: 'absolute',
-                        // width: '100%',
                         height: '100%',
-                        zIndex: '1'
+                        zIndex: '1',
+                        
+
                     }}
                 />
                 <HeaderTitle className="title-animation">Carlos' Title Text</HeaderTitle>
