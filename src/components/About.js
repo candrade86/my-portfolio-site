@@ -16,22 +16,41 @@ import {
     TopLeft,
     BotLeft 
 } from './styled-components/About';
+import './animation-css/About.css';
+
 import pic from '../assets/carlos.png';
 
+import {HorizontalBar} from 'react-chartjs-2';
+
+const data = {
+  labels: ['Javascript', 'React', 'React Native', 'Redux', 'Node.js', 'Css', 'Git', 'Python', 'MongoDB', 'HTML5', 'Photoshop', 'Illustrator'],
+  datasets: [
+    {
+    //   label: 'My First dataset',
+      backgroundColor: 'rgba(255,99,132,0.2)',
+      borderColor: 'rgba(255,99,132,1)',
+      borderWidth: 0,
+      hoverBackgroundColor: 'rgba(255,99,132,0.4)',
+      hoverBorderColor: 'rgba(255,99,132,1)',
+      data: [65, 59, 80, 81, 82, 85, 100, 79, 60, 80, 100, 100, 89]
+     
+    }
+  ]
+};
 
 const About = props => {
+    
 
-    const data = [
-        {skill: "Javascript", level: 100},
-        {skill: "React", level: 100},
-        {skill: "Redux", level: 90},
-        {skill: "Node.js", level: 70}
-    ]
+    
+
+
+
 
     return (
         <Section id={props.id}>
+        
             <LeftDiv>
-                
+            <ScrollAnimation animateIn='slideInLeft' animateOut='slideOutLeft'>
                 <TopLeft>
                     <ScrollAnimation animateIn='zoomIn' animateOut='zoomOut'>
                         <ImageWrap>
@@ -49,29 +68,63 @@ const About = props => {
                    </ScrollAnimation>
                     
                 </BotLeft>
+                </ScrollAnimation>
             </LeftDiv>
+        
+
             <RightDiv>
                 
-                <div>
-                <VictoryChart 
-                    theme={VictoryTheme.material}
-                    domain={{ y: [0.5, 5.5] }}
-                    domainPadding={20}
-                >
-                    <VictoryAxis
-                        dependentAxis
-                        tickFormat={(x) => (`lvl ${x}`)}
-                    />
-                    <VictoryBar horizontal
-                        data={data}
-                        x="skill"
-                        y="level"
-                    />
-                </VictoryChart>
-                </div>
-          
+               
+            <ScrollAnimation animateIn='slideInRight' animateOut='slideOutRight' style={{height: '100%', width: '100%'}}> 
+                <HorizontalBar
+                 data={data}
+                 height={300}
+                 
+                 options={{ maintainAspectRation: false,
+                    barDatasetSpacing: 10,
+                    barValueSpacing: 10,
+                    legend: {
+                        display: false,
+                        
+                    },
+                    scales: {
+                        
+                        yAxes: [
+                            {
+                                gridLines: {
+                                  drawTicks: false,
+                                  offsetGridLines: false,
+                                  display:false
+                                },
+                                categoryPercentage: 0.5,
+                                
+                            
+                                display: true, // this will hide vertical lines
 
-
+                                ticks:{
+                                    fontSize: 30,
+                                    padding: 5,
+                                    beginAtZero: true
+                                },
+                              },
+                        ],
+                        xAxes: [
+                          {
+                            gridLines: {
+                              color: '#aaa',
+                              borderDash: [1, 3],
+                            },
+                           
+                            
+                            display: false, // this will hide vertical lines
+                          },
+                        ],
+                      },
+                
+                
+                }}
+                 />
+                </ScrollAnimation>
 
             </RightDiv>
             {/* <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight">

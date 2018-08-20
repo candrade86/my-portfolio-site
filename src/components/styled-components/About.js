@@ -42,6 +42,8 @@ export const TopLeft = styled.div`
 `
 
 export const RightDiv = styled.div`
+    position: relative;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
