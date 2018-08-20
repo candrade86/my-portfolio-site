@@ -13,6 +13,7 @@ export const Section = styled.section`
 `
 export const LeftDiv = styled.div`
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 45%;
@@ -20,6 +21,18 @@ export const LeftDiv = styled.div`
 
     border: solid red;
 `
+export const BotLeft = styled.div`
+    width: 100%;
+    height: 60%;
+    border: solid pink;
+`
+
+export const TopLeft = styled.div`
+    width: 100%;
+    height: 40%;
+    border: solid green;
+`
+
 export const RightDiv = styled.div`
     display: flex;
     justify-content: center;
@@ -30,6 +43,13 @@ export const RightDiv = styled.div`
     border: solid red;
 `
 
+export const Image = styled.img`
+    width: 50%;
+    height: auto%;
+    /* padding: 10%; */
+    border-radius: 50%;
+`
+
 export const Text = styled.p`
-    font-size: 4rem;
+    font-size: 2rem;
 `
