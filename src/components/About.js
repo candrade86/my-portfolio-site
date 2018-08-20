@@ -12,6 +12,7 @@ import {
     RightDiv,
     Text,
     Image,
+    ImageWrap,
     TopLeft,
     BotLeft 
 } from './styled-components/About';
@@ -32,13 +33,21 @@ const About = props => {
             <LeftDiv>
                 
                 <TopLeft>
-                    <Image src={pic} />
+                    <ScrollAnimation animateIn='zoomIn' animateOut='zoomOut'>
+                        <ImageWrap>
+                            <Image src={pic} />
+                        </ImageWrap>
+                    </ScrollAnimation>
                 </TopLeft>
                     
                 <BotLeft>
+                    
+                   <ScrollAnimation animateIn='fadeInDown' animateOut='fadeOut'> 
                     <Text>
                         Nam ac facilisis orci, at rutrum sem. Nam et enim lorem. Aenean pulvinar augue ut arcu viverra laoreet. Integer mattis mattis dolor, eu ultrices diam cursus vel. Integer sagittis, felis vel varius placerat, urna orci mattis metus, non accumsan ante erat quis libero. Fusce dictum orci nec egestas mollis. Integer sodales pharetra vulputate.
                     </Text>
+                   </ScrollAnimation>
+                    
                 </BotLeft>
             </LeftDiv>
             <RightDiv>

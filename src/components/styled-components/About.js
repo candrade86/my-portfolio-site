@@ -22,8 +22,16 @@ export const LeftDiv = styled.div`
     border: solid red;
 `
 export const BotLeft = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
     width: 100%;
     height: 60%;
+    overflow: auto;
+    padding: 0 5%;
+
     border: solid pink;
 `
 
@@ -44,12 +52,21 @@ export const RightDiv = styled.div`
 `
 
 export const Image = styled.img`
-    width: 50%;
-    height: auto%;
+    width: 40%;
+    height: auto;
+    
     /* padding: 10%; */
     border-radius: 50%;
 `
+export const ImageWrap = styled.div`
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+`
 
 export const Text = styled.p`
-    font-size: 2rem;
+    font-size: 2.5rem;
+    line-height: 1.6;
+    
 `
