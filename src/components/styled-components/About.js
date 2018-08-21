@@ -93,7 +93,7 @@ export const RightDiv = styled.div`
     align-items: center;
     width: 45%;
     height: 95%;
-    padding: 30px;
+    /* padding: 30px; */
 
     /* @media ${device.galaxyS5} {
         width: 100%;

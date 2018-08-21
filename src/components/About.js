@@ -23,7 +23,7 @@ import pic from '../assets/carlos.png';
 import {HorizontalBar} from 'react-chartjs-2';
 
 const data = {
-  labels: ['Javascript', 'React', 'React Native', 'Redux', 'Node.js', 'Css', 'Git', 'Python', 'MongoDB', 'HTML5', 'Photoshop', 'Illustrator'],
+  labels: ['Javascript', 'React', 'React Native', 'Redux', 'Node.js', 'CSS', 'Git', 'Python', 'MongoDB', 'HTML5', 'Photoshop', 'Illustrator'],
   datasets: [
     {
     //   label: 'My First dataset',
@@ -32,7 +32,7 @@ const data = {
       borderWidth: 0,
       hoverBackgroundColor: 'rgba(255,99,132,0.4)',
       hoverBorderColor: 'rgba(255,99,132,1)',
-      data: [65, 59, 80, 81, 82, 85, 100, 79, 60, 80, 100, 100, 89]
+      data: [65, 59, 80, 81, 82, 85, 80, 79, 60, 80, 80, 80, 89]
      
     }
   ]
@@ -72,11 +72,11 @@ const About = props => {
 
             <RightDiv>
                 
-               
+               <div style={{ paddingLeft: '5%', height: '60%', width: '100%', position: 'relative', top: '-25px'}}>
             <ScrollAnimation animateIn='slideInRight' animateOut='slideOutRight' style={{height: '100%', width: '100%'}}> 
                 <HorizontalBar
                  data={data}
-                 height={290}
+                 height={200}
                  
                  options={{ maintainAspectRation: false,
                     barDatasetSpacing: 10,
@@ -100,7 +100,7 @@ const About = props => {
                                 display: true, // this will hide vertical lines
 
                                 ticks:{
-                                    fontSize: 20,
+                                    fontSize: 25,
                                     padding: 5,
                                     beginAtZero: true
                                 },
@@ -123,7 +123,7 @@ const About = props => {
                 }}
                  />
                 </ScrollAnimation>
-
+                </div>
             </RightDiv>
             {/* <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight">
                 <Text>Some Text</Text>
