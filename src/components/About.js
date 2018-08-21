@@ -61,7 +61,7 @@ const About = props => {
         
 
             <RightDiv>
-            <ScrollAnimation animateIn='slideInRight' animateOut='slideOutRight' style={{height: '100%', width: '100%'}}>
+            <ScrollAnimation animateIn='slideInRight' animateOut='slideOutRight' style={{height: '100%', width: '100%', border: 'solid green'}}>
                 
 
         
