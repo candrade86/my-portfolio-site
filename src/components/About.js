@@ -50,22 +50,20 @@ const About = props => {
         <Section id={props.id}>
         
             <LeftDiv>
-            <ScrollAnimation animateIn='slideInLeft' animateOut='slideOutLeft'>
+            <ScrollAnimation animateIn='slideInLeft' animateOut='slideOutLeft' style={{height: '100%', width: '100%'}}>
                 <TopLeft>
-                    <ScrollAnimation animateIn='zoomIn' animateOut='zoomOut'>
+                    
                         <ImageWrap>
                             <Image src={pic} />
                         </ImageWrap>
-                    </ScrollAnimation>
+                    
                 </TopLeft>
                     
                 <BotLeft>
                     
-                   <ScrollAnimation animateIn='fadeInDown' animateOut='fadeOut'> 
                     <Text>
                         Nam ac facilisis orci, at rutrum sem. Nam et enim lorem. Aenean pulvinar augue ut arcu viverra laoreet. Integer mattis mattis dolor, eu ultrices diam cursus vel. Integer sagittis, felis vel varius placerat, urna orci mattis metus, non accumsan ante erat quis libero. Fusce dictum orci nec egestas mollis. Integer sodales pharetra vulputate.
                     </Text>
-                   </ScrollAnimation>
                     
                 </BotLeft>
                 </ScrollAnimation>
@@ -78,7 +76,7 @@ const About = props => {
             <ScrollAnimation animateIn='slideInRight' animateOut='slideOutRight' style={{height: '100%', width: '100%'}}> 
                 <HorizontalBar
                  data={data}
-                 height={300}
+                 height={290}
                  
                  options={{ maintainAspectRation: false,
                     barDatasetSpacing: 10,
@@ -102,7 +100,7 @@ const About = props => {
                                 display: true, // this will hide vertical lines
 
                                 ticks:{
-                                    fontSize: 30,
+                                    fontSize: 20,
                                     padding: 5,
                                     beginAtZero: true
                                 },
