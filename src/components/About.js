@@ -2,8 +2,7 @@ import React from 'react';
 
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
-import * as V from 'victory';
-import { VictoryBar, VictoryChart, VictoryAxis, VictoryTheme  } from 'victory';
+
 import Fade from 'react-reveal/Fade';
 
 import { 
@@ -14,38 +13,29 @@ import {
     Image,
     ImageWrap,
     TopLeft,
-    BotLeft 
+    BotLeft,
 } from './styled-components/About';
 import './animation-css/About.css';
 
 import pic from '../assets/carlos.png';
 
-import {HorizontalBar} from 'react-chartjs-2';
 
-const data = {
-  labels: ['Javascript', 'React', 'React Native', 'Redux', 'Node.js', 'CSS', 'Git', 'Python', 'MongoDB', 'HTML5', 'Photoshop', 'Illustrator'],
-  datasets: [
-    {
-    //   label: 'My First dataset',
-      backgroundColor: 'rgba(255,99,132,0.2)',
-      borderColor: 'rgba(255,99,132,1)',
-      borderWidth: 0,
-      hoverBackgroundColor: 'rgba(255,99,132,0.4)',
-      hoverBorderColor: 'rgba(255,99,132,1)',
-      data: [65, 59, 80, 81, 82, 85, 80, 79, 60, 80, 80, 80, 89]
-     
-    }
-  ]
-};
+
+const data = [65, 59, 80, 81, 82, 85, 80, 79, 60,];
+const labels = ['Javascript', 'React', 'React Native', 'Redux', 'Node.js', 'CSS', 'HTML5',  'MongoDB', 'Photoshop']
+let label;
+let barGraph = data.map((d,i) => {
+   return ( 
+    <li className="chart__bar" style={{width: `${d}%`}}>
+    <span className="chart__label">
+     { label = labels[i] }
+    </span>
+  </li>
+   )
+})
 
 const About = props => {
     
-
-    
-
-
-
-
     return (
         <Section id={props.id}>
         
@@ -71,59 +61,22 @@ const About = props => {
         
 
             <RightDiv>
+            <ScrollAnimation animateIn='slideInRight' animateOut='slideOutRight' style={{height: '100%', width: '100%'}}>
                 
-               <div style={{ paddingLeft: '5%', height: '60%', width: '100%', position: 'relative', top: '-25px'}}>
-            <ScrollAnimation animateIn='slideInRight' animateOut='slideOutRight' style={{height: '100%', width: '100%'}}> 
-                <HorizontalBar
-                 data={data}
-                 height={200}
-                 
-                 options={{ maintainAspectRation: false,
-                    barDatasetSpacing: 10,
-                    barValueSpacing: 10,
-                    legend: {
-                        display: false,
-                        
-                    },
-                    scales: {
-                        
-                        yAxes: [
-                            {
-                                gridLines: {
-                                  drawTicks: false,
-                                  offsetGridLines: false,
-                                  display:false
-                                },
-                                categoryPercentage: 0.5,
-                                
-                            
-                                display: true, // this will hide vertical lines
 
-                                ticks:{
-                                    fontSize: 25,
-                                    padding: 5,
-                                    beginAtZero: true
-                                },
-                              },
-                        ],
-                        xAxes: [
-                          {
-                            gridLines: {
-                              color: '#aaa',
-                              borderDash: [1, 3],
-                            },
-                           
-                            
-                            display: false, // this will hide vertical lines
-                          },
-                        ],
-                      },
+        
+                    <div className="charts">
+                        <div className="chart chart--dev">
+                        <span className="chart__title">Development</span>
+                        <ul className="chart--horiz">
+                            {barGraph}
+                        
+                        </ul>
+                        </div>
+                        
+                    </div>
                 
-                
-                }}
-                 />
-                </ScrollAnimation>
-                </div>
+              </ScrollAnimation>  
             </RightDiv>
             {/* <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight">
                 <Text>Some Text</Text>

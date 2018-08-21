@@ -3,44 +3,13 @@ import { device } from './MediaQueries';
 
 export const Section = styled.section`
     position: relative;
-    height: 100vh;
+    height: 100%;
     background: yellow;
-
     display: flex;
     justify-content: space-around;
     align-items: center;
    
-    /* @media ${device.galaxyS5} {
-        flex-direction: column;
-    }
-
-    @media ${device.iphoneSSE} {
-        flex-direction: column;
-    }
-
-    @media ${device.ipad} {
-        position: relative;
-        height: 100vh;
-        background: yellow;
-
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    @media ${device.ipadPro} {
-        position: relative;
-        height: 100vh;
-        background: yellow;
-
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: row;
-    } */
-
-
+   
 
     /* border: solid green; */
 `
@@ -51,15 +20,7 @@ export const LeftDiv = styled.div`
     align-items: center;
     width: 45%;
     height: 95%;
-
-     /* @media ${device.galaxyS5} {
-        width: 100%;
-    }
-
-    @media ${device.iphoneSSE} {
-        width: 100%;
-    } */
-
+    
     border: solid red;
 `
 export const BotLeft = styled.div`
@@ -81,9 +42,7 @@ export const TopLeft = styled.div`
     height: 40%;
     border: solid green;
 
-     /* @media ${device.iphoneSSE} {
-        padding: 5px;
-    } */
+
 `
 
 export const RightDiv = styled.div`
@@ -93,21 +52,6 @@ export const RightDiv = styled.div`
     align-items: center;
     width: 45%;
     height: 95%;
-    /* padding: 30px; */
-
-    /* @media ${device.galaxyS5} {
-        width: 100%;
-    }
-
-    @media ${device.iphoneSSE} {
-        width: 100%;
-        padding: 35px;
-    }
-
-    @media ${device.iphone678X} {
-        width: 100%;
-        padding-top: 60px;   
-    } */
 
     border: solid red;
 `
@@ -116,7 +60,6 @@ export const Image = styled.img`
     width: 40%;
     height: auto;
     
-    /* padding: 10%; */
     border-radius: 50%;
 `
 export const ImageWrap = styled.div`
@@ -129,18 +72,5 @@ export const ImageWrap = styled.div`
 export const Text = styled.p`
     font-size: 2.5rem;
     line-height: 1.6;
-
-    /* @media ${device.iphoneSSE} {
-        font-size: 1.5rem;
-        line-height: 1.1;
-        padding: 5px;
-    }
-
-     @media ${device.iphone678X} {
-        line-height: 1.5;
-
-    } */
-
-    
     
 `
