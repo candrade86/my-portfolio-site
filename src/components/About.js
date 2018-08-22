@@ -67,7 +67,7 @@ const About = props => {
         
                     <div className="charts">
                         <div className="chart chart--dev">
-                        <span className="chart__title">Development</span>
+                        
                         <ul className="chart--horiz">
                             {barGraph}
                         

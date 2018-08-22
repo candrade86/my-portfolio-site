@@ -4,7 +4,7 @@ import { device } from './MediaQueries';
 export const Section = styled.section`
     position: relative;
     height: 100%;
-    background: yellow;
+    background: white;
     display: flex;
     justify-content: space-around;
     align-items: center;

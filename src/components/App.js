@@ -21,13 +21,13 @@ import {
 
 class App extends Component {
 
-  componentDidMount() {
-    window.onbeforeunload = function () {
-      window.scrollTo(0,0);
+  // componentDidMount() {
+  //   window.onbeforeunload = function () {
+  //     window.scrollTo(0,0);
 
-    }
+  //   }
 
-  }
+  // }
   
   
   render() {
