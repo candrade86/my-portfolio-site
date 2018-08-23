@@ -16,6 +16,8 @@ import 'animate.css/animate.min.css';
 import anime from 'animejs';
 import $ from 'jquery';
 
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+
 const particleOpt = {
 
     "particles": {
@@ -193,7 +195,7 @@ class Header extends Component {
                   </span>
                 </div>
                 <ScrollAnimation  animateIn='fadeInUp' style={{width: '100%'}} delay='1500' animateOnce='true'>
-                  <ButtonWrap><Button className='hvr-shutter-out-vertical'>My Portfolio</Button></ButtonWrap>
+                  <ButtonWrap><AnchorLink href='#portfolio'><Button className='hvr-shutter-out-vertical'>My Portfolio</Button></AnchorLink></ButtonWrap>
                 </ScrollAnimation>
                 </HeaderTitle>
                 {this.props.children}
