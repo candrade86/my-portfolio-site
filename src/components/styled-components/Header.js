@@ -36,7 +36,7 @@ export const Button = styled.button`
     height: auto;
     padding: 2%;
     width: 20%;
-    font-size: 3rem;
+    font-size: 2rem;
     word-wrap: break-word;
     font-weight: 900;
     color: white;
