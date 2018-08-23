@@ -15,17 +15,16 @@ export const Section = styled.section`
 `
 
 export const TopDiv = styled.div`
-
+    height: 10%;
+    border: solid yellow;
 `
 
 export const BotDiv = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
 
+    border: solid blue;
 `
 
-export const Trivializer = styled.img`
-    width: 100%;
-    height: auto%;
-    border-radius: 1%;
-
-   
-`
