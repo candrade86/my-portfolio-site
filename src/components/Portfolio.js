@@ -7,7 +7,8 @@ import 'animate.css/animate.min.css';
 import { 
     Section,
     TopDiv,
-    BotDiv
+    BotDiv,
+    Title
 
 } from './styled-components/Portfolio';
 import './animation-css/Portfolio.css';
@@ -16,11 +17,13 @@ const Portfolio = props => {
     return (
         <Section id={props.id}>
             <TopDiv>
-            <h1> Portfolio </h1>
+            <ScrollAnimation animateIn='fadeIn'>
+            <div><Title> Portfolio </Title></div>
+            </ScrollAnimation>
             </TopDiv>
 
             <BotDiv>
-                <ScrollAnimation animateIn='zoomIn' animateOut='fadeOut' style={{height: 'auto', width: '100%', border: 'solid green', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                <ScrollAnimation animateIn='fadeIn' style={{height: 'auto', width: '100%', border: 'solid green', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                     <figure className='effect-apollo' >
                         <a  href='https://trivializer.app'><img src={trivPicture} /></a>
                         <figcaption >

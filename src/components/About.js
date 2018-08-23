@@ -20,7 +20,6 @@ import './animation-css/About.css';
 import pic from '../assets/carlos.png';
 
 
-
 const data = [65, 59, 80, 81, 82, 85, 80, 79, 60,];
 const labels = ['Javascript', 'React', 'React Native', 'Redux', 'Node.js', 'CSS', 'HTML5',  'MongoDB', 'Photoshop']
 let label;
@@ -40,7 +39,7 @@ const About = props => {
         <Section id={props.id}>
         
             <LeftDiv>
-            <ScrollAnimation animateIn='slideInLeft' animateOut='slideOutLeft' style={{height: '100%', width: '100%'}}>
+            <ScrollAnimation animateIn='fadeIn' style={{height: '100%', width: '100%'}}>
                 <TopLeft>
                     
                         <ImageWrap>
@@ -61,7 +60,7 @@ const About = props => {
         
 
             <RightDiv>
-            <ScrollAnimation animateIn='slideInRight' animateOut='slideOutRight' style={{height: '100%', width: '100%', border: 'solid green'}}>
+            <ScrollAnimation animateIn='fadeIn' style={{height: '100%', width: '100%', border: 'solid green'}}>
                 
 
         

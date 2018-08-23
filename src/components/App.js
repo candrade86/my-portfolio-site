@@ -38,7 +38,7 @@ class App extends Component {
           <LinkWrap><AnchorLink href='#header'>Header</AnchorLink></LinkWrap>
           <LinkWrap><AnchorLink href='#about'>About</AnchorLink></LinkWrap>
           <LinkWrap><AnchorLink href='#portfolio'>Portfolio</AnchorLink></LinkWrap>
-          <LinkWrap><AnchorLink href='#blog'>blog</AnchorLink></LinkWrap>
+          {/* <LinkWrap><AnchorLink href='#blog'>blog</AnchorLink></LinkWrap> */}
           <LinkWrap><AnchorLink href='#contact'>Contact</AnchorLink></LinkWrap>
         </Nav>
 
@@ -46,7 +46,7 @@ class App extends Component {
         <Header id={'header'} />
         <About id={'about'} />
         <Portfolio id={'portfolio'} />
-        <Blog id={'blog'} />
+        {/* <Blog id={'blog'} /> */}
         <Contact id={'contact'} />
         
           

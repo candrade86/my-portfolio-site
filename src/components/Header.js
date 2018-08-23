@@ -1,14 +1,23 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import Particles from 'react-particles-js';
 
 import './animation-css/Header.css';
 import {
     Section,
-    HeaderTitle
+    HeaderTitle,
+    ButtonWrap,
+    Button
 } from './styled-components/Header'
 
+import ScrollAnimation from 'react-animate-on-scroll';
+import 'animate.css/animate.min.css';
+
+import anime from 'animejs';
+import $ from 'jquery';
+
 const particleOpt = {
+
     "particles": {
         "number": {
           "value": 9,
@@ -120,8 +129,48 @@ const particleOpt = {
     }
         
     
-const Header = props => {
-    return ( <Section id={props.id}> 
+class Header extends Component {
+  componentDidMount() {
+    $('.ml11 .letters').each(function(){
+      $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+    });
+    
+    anime.timeline({loop: false})
+      .add({
+        targets: '.ml11 .line',
+        scaleY: [0,1],
+        opacity: [0.5,1],
+        easing: "easeOutExpo",
+        duration: 700
+      })
+      .add({
+        targets: '.ml11 .line',
+        translateX: [0,$(".ml11 .letters").width()],
+        easing: "easeOutExpo",
+        duration: 700,
+        delay: 100
+      }).add({
+        targets: '.ml11 .letter',
+        opacity: [0,1],
+        easing: "easeOutExpo",
+        duration: 500,
+        delay: -100,
+        offset: '-=775',
+        delay: function(el, i) {
+          return 34 * (i+1)
+        }
+      }).add({
+        targets: '.ml11',
+        // opacity: 0,
+        // duration: 1000,
+        // easing: "easeOutExpo",
+        // delay: 1000
+      });
+  }
+
+
+  render(){
+    return ( <Section id={this.props.id}> 
                 
 
                 <Particles 
@@ -134,11 +183,24 @@ const Header = props => {
 
                     }}
                 />
-                <HeaderTitle className="title-animation">Carlos' Title Text</HeaderTitle>
-                {props.children}
+                <HeaderTitle style={{ padding: '0 3%'}}>
+                <div className="ml11" >
+                  <span style={{color: 'white'}}>$  </span> 
+                  <span className="text-wrapper">
+                  
+                    <span className="line line1 blinker"></span>
+                    <span className="letters">I'm a fullstack developer</span>
+                  </span>
+                </div>
+                <ScrollAnimation  animateIn='fadeInUp' style={{width: '100%'}} delay='1500' animateOnce='true'>
+                  <ButtonWrap><Button className='hvr-shutter-out-vertical'>My Portfolio</Button></ButtonWrap>
+                </ScrollAnimation>
+                </HeaderTitle>
+                {this.props.children}
               
              </Section>
     );
+  };
 }
 
 export default Header;

@@ -15,7 +15,11 @@ export const Section = styled.section`
 `
 
 export const TopDiv = styled.div`
-    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 100%;
     border: solid yellow;
 `
 
@@ -28,3 +32,6 @@ export const BotDiv = styled.div`
     border: solid blue;
 `
 
+export const Title = styled.h1`
+    font-size: 5rem;
+`
