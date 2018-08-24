@@ -3,7 +3,7 @@ import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
 
-import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 
 import { 
     Section,
@@ -39,7 +39,9 @@ const About = props => {
         <Section id={props.id}>
         
             <LeftDiv>
+            
             <ScrollAnimation animateIn='fadeIn' style={{height: '100%', width: '100%'}}>
+                
                 <TopLeft>
                     
                         <ImageWrap>
@@ -55,7 +57,9 @@ const About = props => {
                     </Text>
                     
                 </BotLeft>
+                
                 </ScrollAnimation>
+                
             </LeftDiv>
         
 
