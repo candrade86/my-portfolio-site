@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import { backendAPI } from '../config.js'
 
 import { 
     Section 
@@ -13,7 +14,7 @@ class Contact extends Component {
         const message = document.getElementById('message').value;
         axios({
             method: "POST", 
-            url:"https://morning-beyond-85858.herokuapp.com/", 
+            url: backendAPI, 
             data: {
                 name: name,   
                 email: email,  
