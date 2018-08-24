@@ -24,17 +24,24 @@ import {
 class App extends Component {
 
   componentDidMount() {
-    // $('#toggle').click(function() {
-    //   $(this).toggleClass('active');
-    //   $('#overlay').toggleClass('open');
-    //  });
-
+ 
     $('#toggle').click(function() {
       $(this).toggleClass('active');
       $('#overlay').toggleClass('open');
      });
-
      $('#link').click(function() {
+      $('#toggle').toggleClass('active');
+      $('#overlay').toggleClass('open');
+     });
+     $('#link2').click(function() {
+      $('#toggle').toggleClass('active');
+      $('#overlay').toggleClass('open');
+     });
+     $('#link3').click(function() {
+      $('#toggle').toggleClass('active');
+      $('#overlay').toggleClass('open');
+     });
+     $('#link4').click(function() {
       $('#toggle').toggleClass('active');
       $('#overlay').toggleClass('open');
      });
