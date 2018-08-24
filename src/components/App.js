@@ -8,8 +8,10 @@ import Contact from './Contact';
 
 //dependencies 
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-
 import './animation-css/App.css';
+
+import $ from 'jquery';
+
 import { 
     AppWrapper,
     LinkWrap,
@@ -21,26 +23,55 @@ import {
 
 class App extends Component {
 
-  // componentDidMount() {
-  //   window.onbeforeunload = function () {
-  //     window.scrollTo(0,0);
+  componentDidMount() {
+    // $('#toggle').click(function() {
+    //   $(this).toggleClass('active');
+    //   $('#overlay').toggleClass('open');
+    //  });
 
-  //   }
+    $('#toggle').click(function() {
+      $(this).toggleClass('active');
+      $('#overlay').toggleClass('open');
+     });
 
-  // }
+     $('#link').click(function() {
+      $('#toggle').toggleClass('active');
+      $('#overlay').toggleClass('open');
+     });
+    // window.onbeforeunload = function () {
+    //   window.scrollTo(0,0);
+
+    // }
+
+  }
   
   
   render() {
 
     return (
       <AppWrapper>
-        <Nav>
+        {/* <Nav>
           <LinkWrap><AnchorLink href='#header'>Header</AnchorLink></LinkWrap>
           <LinkWrap><AnchorLink href='#about'>About</AnchorLink></LinkWrap>
           <LinkWrap><AnchorLink href='#portfolio'>Portfolio</AnchorLink></LinkWrap>
-          {/* <LinkWrap><AnchorLink href='#blog'>blog</AnchorLink></LinkWrap> */}
+          <LinkWrap><AnchorLink href='#blog'>blog</AnchorLink></LinkWrap>
           <LinkWrap><AnchorLink href='#contact'>Contact</AnchorLink></LinkWrap>
-        </Nav>
+        </Nav> */}
+
+        <div className="button_container" id='toggle'><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+          <div className="overlay" id="overlay">
+              <nav className="overlay-menu" id='menu'>
+                  <ul>
+                      <li><AnchorLink id='link' href='#header'><a href="#">Top</a></AnchorLink></li>
+                      <li><AnchorLink id='link2' href='#about'><a href="#">About</a></AnchorLink></li>
+                      <li><AnchorLink id='link3' href='#portfolio'><a href="#">portfolio</a></AnchorLink></li>
+                      <li><AnchorLink id='link4' href='#contact'><a href="#">Contact</a></AnchorLink></li>
+                  </ul>
+              </nav>
+          </div>
+
+
+
 
         
         <Header id={'header'} />

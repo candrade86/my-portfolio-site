@@ -194,8 +194,10 @@ class Header extends Component {
                     <span className="letters">I'm a fullstack developer</span>
                   </span>
                 </div>
-                <ScrollAnimation  animateIn='fadeInUp' style={{width: '100%'}} delay='1500' animateOnce='true'>
-                  <ButtonWrap><AnchorLink href='#portfolio'><Button className='hvr-shutter-out-vertical'>My Portfolio</Button></AnchorLink></ButtonWrap>
+                <ScrollAnimation  animateIn='fadeInUp' style={{width: '100%'}} delay='1000' animateOnce='true'>
+                  <ButtonWrap><AnchorLink href='#portfolio'><Button className='button'>My Portfolio</Button></AnchorLink></ButtonWrap>
+                    
+                    
                 </ScrollAnimation>
                 </HeaderTitle>
                 {this.props.children}

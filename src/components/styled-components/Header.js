@@ -14,7 +14,7 @@ export const Section = styled.section`
 
 export const HeaderTitle = styled.div`
     position: relative;
-    z-index: 500;
+    z-index: 900;
     display: flex;
     justify-content: center;
     align-items: center;

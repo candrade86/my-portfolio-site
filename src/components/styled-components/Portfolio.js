@@ -9,7 +9,7 @@ export const Section = styled.section`
     width: 100%;
     height: 100%;
     
-    background: #cccccc;
+    background: #37383a;
 
     /* border: solid green; */
 `
