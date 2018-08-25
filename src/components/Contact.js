@@ -7,6 +7,7 @@ import {
 } from './styled-components/About';
 
 class Contact extends Component {
+
     handleSubmit(e){
         e.preventDefault();
         const name = document.getElementById('name').value;
@@ -14,11 +15,11 @@ class Contact extends Component {
         const message = document.getElementById('message').value;
         axios({
             method: "POST", 
-            url: backendAPI, 
+            url: 'http://localhost:5000/api/send', 
             data: {
                 name: name,   
                 email: email,  
-                messsage: message
+                message: message
             }
         }).then((response)=>{
             if (response.data.msg === 'success'){
@@ -28,6 +29,10 @@ class Contact extends Component {
                 alert("Message failed to send.")
             }
         })
+    }
+
+    resetForm() {
+        document.getElementById('contact-form').reset();
     }
 
     render() {
