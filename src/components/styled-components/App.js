@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const AppWrapper = styled.div`
     margin: 0 auto;
-    /* height: 100%; */
+    height: 120%;
 
     /* border: solid purple; */
 
