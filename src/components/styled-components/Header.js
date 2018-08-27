@@ -20,6 +20,7 @@ export const HeaderTitle = styled.div`
     align-items: center;
     flex-direction: column;
     height: 100%;
+    width: 80%;
     font-size: 7rem;
     text-align: center;
 
