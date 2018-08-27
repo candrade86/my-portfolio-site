@@ -185,8 +185,9 @@ class Header extends Component {
 
                     }}
                 />
-                <HeaderTitle style={{ padding: '0 3%'}}>
-                <div style={{ width: '80%'}}>
+                <div style={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                <HeaderTitle>
+                
                 <div className="ml11" >
                   <span style={{color: 'white'}}>$  </span> 
                   <span className="text-wrapper">
@@ -195,13 +196,14 @@ class Header extends Component {
                     <span className="letters">I'm a fullstack developer</span>
                   </span>
                 </div>
-                </div>
+                
                 <ScrollAnimation  animateIn='fadeInUp' style={{width: '100%'}} delay='1000' animateOnce='true'>
                   <ButtonWrap><AnchorLink href='#portfolio'><Button className='button'>My Portfolio</Button></AnchorLink></ButtonWrap>
                     
                     
                 </ScrollAnimation>
                 </HeaderTitle>
+                </div>
                 {this.props.children}
               
              </Section>
