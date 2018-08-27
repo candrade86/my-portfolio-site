@@ -20,7 +20,7 @@ export const HeaderTitle = styled.div`
     align-items: center;
     flex-direction: column;
     height: 100%;
-    font-size: 10rem;
+    font-size: 7rem;
     text-align: center;
 
     /* border: solid purple; */
