@@ -18,20 +18,22 @@ const Portfolio = props => {
         <Section id={props.id}>
             <TopDiv>
             <ScrollAnimation animateIn='fadeIn'>
-            <div><Title> Portfolio </Title></div>
+            <div style={{padding: '10px 1%'}}><Title> Portfolio </Title></div>
             </ScrollAnimation>
             </TopDiv>
 
             <BotDiv>
-                <ScrollAnimation animateIn='fadeIn' style={{height: 'auto', width: '100%', border: 'solid green', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                    <figure className='effect-apollo' >
-                        <a  href='https://trivializer.app'><img src={trivPicture} /></a>
-                        <figcaption >
-                            <div style={{width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                            <div><h2 className='focus-in-contract' >View Trivializer</h2></div>
-                            </div>
-                        </figcaption>
-                    </figure>
+                <ScrollAnimation animateIn='fadeIn' style={{height: 'auto', width: '80%', border: 'solid green', display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '10px 1%'}}>
+                    <a  href='https://trivializer.app'>
+                        <figure className='effect-apollo' >
+                            <img src={trivPicture} />
+                            <figcaption >
+                                <div style={{width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                                <div><h2 className='focus-in-contract' >View Trivializer</h2></div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
                 </ScrollAnimation>
             </BotDiv>
         </Section>

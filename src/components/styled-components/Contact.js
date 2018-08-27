@@ -13,5 +13,6 @@ export const Section = styled.section`
 `
 
 export const FormWrap = styled.div`
-    width: 50%;
+    width: 30%;
+
 `

@@ -3,10 +3,11 @@ import { device } from './MediaQueries';
 
 export const Section = styled.section`
     position: relative;
-    height: 100%;
+    height: 100vh;
+    width: 100%;
     background: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
    
    
@@ -14,31 +15,34 @@ export const Section = styled.section`
     /* border: solid green; */
 `
 export const LeftDiv = styled.div`
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
     width: 45%;
-    height: 95%;
+    height: 100%; 
     
     border: solid red;
 `
 export const BotLeft = styled.div`
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     
     width: 100%;
+    height: 100%;
+     */
     height: 60%;
     overflow: auto;
     padding: 0 5%;
-   
+
     border: solid pink;
 `
 
 export const TopLeft = styled.div`
-    width: 100%;
+    /* width: 100%;
+    height: 100%; */
     height: 40%;
     border: solid green;
 
@@ -46,12 +50,13 @@ export const TopLeft = styled.div`
 `
 
 export const RightDiv = styled.div`
-    position: relative;
+    /* position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
     width: 45%;
-    height: 95%;
+    height: 100%; 
+    
 
     border: solid red;
 `
@@ -71,6 +76,6 @@ export const ImageWrap = styled.div`
 
 export const Text = styled.p`
     font-size: 2.5rem;
-    line-height: 1.6;
+    line-height: 300%;
     
 `

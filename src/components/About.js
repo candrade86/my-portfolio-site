@@ -37,7 +37,7 @@ const About = props => {
     
     return (
         <Section id={props.id}>
-        
+        {/* <div style={{  border: 'solid skyblue', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}> */}
             <LeftDiv>
             
             <ScrollAnimation animateIn='fadeIn' style={{height: '100%', width: '100%'}}>
@@ -64,7 +64,7 @@ const About = props => {
         
 
             <RightDiv>
-            <ScrollAnimation animateIn='fadeIn' style={{height: '100%', width: '100%', border: 'solid green'}}>
+            <ScrollAnimation animateIn='fadeIn' >
                 
 
         
@@ -81,9 +81,8 @@ const About = props => {
                 
               </ScrollAnimation>  
             </RightDiv>
-            {/* <ScrollAnimation animateIn="slideInRight" animateOut="slideOutRight">
-                <Text>Some Text</Text>
-            </ScrollAnimation>         */}
+        
+            {/* </div> */}
         </Section>
     );
 }

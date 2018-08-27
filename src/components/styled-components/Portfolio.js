@@ -7,7 +7,7 @@ export const Section = styled.section`
     align-items: center;
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     
     background: #37383a;
 
@@ -20,6 +20,7 @@ export const TopDiv = styled.div`
     align-items: center;
     height: 20%;
     width: 100%;
+
     border: solid yellow;
 `
 
@@ -33,5 +34,6 @@ export const BotDiv = styled.div`
 `
 
 export const Title = styled.h1`
+    
     font-size: 5rem;
 `
