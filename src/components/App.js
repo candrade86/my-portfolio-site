@@ -57,15 +57,8 @@ class App extends Component {
 
     return (
       <AppWrapper>
-        {/* <Nav>
-          <LinkWrap><AnchorLink href='#header'>Header</AnchorLink></LinkWrap>
-          <LinkWrap><AnchorLink href='#about'>About</AnchorLink></LinkWrap>
-          <LinkWrap><AnchorLink href='#portfolio'>Portfolio</AnchorLink></LinkWrap>
-          <LinkWrap><AnchorLink href='#blog'>blog</AnchorLink></LinkWrap>
-          <LinkWrap><AnchorLink href='#contact'>Contact</AnchorLink></LinkWrap>
-        </Nav> */}
 
-        <div className="button_container" id='toggle'><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+        {/* <div className="button_container" id='toggle'><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
           <div className="overlay" id="overlay">
               <nav className="overlay-menu" id='menu'>
                   <ul>
@@ -75,7 +68,7 @@ class App extends Component {
                       <li><AnchorLink id='link4' href='#contact'><a href="#">Contact</a></AnchorLink></li>
                   </ul>
               </nav>
-          </div>
+          </div> */}
 
 
 
