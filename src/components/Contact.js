@@ -48,7 +48,7 @@ class Contact extends Component {
     render() {
         return (
             <Section id={this.props.id}>
-                 <ScrollAnimation animateIn='fadeInUp' style={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                 <ScrollAnimation animateIn='fadeIn' style={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <FormWrap>
                         <form id='contact-form' className='contact' onSubmit={this.handleSubmit.bind(this)} method='POST'>
                             <h3>Contact me!</h3>
