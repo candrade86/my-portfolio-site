@@ -58,7 +58,7 @@ class App extends Component {
     return (
       <AppWrapper>
 
-        {/* <div className="button_container" id='toggle'><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+        <div className="button_container" id='toggle'><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
           <div className="overlay" id="overlay">
               <nav className="overlay-menu" id='menu'>
                   <ul>
@@ -68,7 +68,7 @@ class App extends Component {
                       <li><AnchorLink id='link4' href='#contact'><a href="#">Contact</a></AnchorLink></li>
                   </ul>
               </nav>
-          </div> */}
+          </div>
 
 
 
