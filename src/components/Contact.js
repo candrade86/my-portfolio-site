@@ -64,7 +64,7 @@ class Contact extends Component {
                     </div>
                     <button type='submit'>Submit</button>
                 </form>          */}
-                 {/* <ScrollAnimation animateIn='fadeIn' style={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}> */}
+                 <ScrollAnimation animateIn='fadeIn' style={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <FormWrap>
                         <form id='contact-form' className='contact' onSubmit={this.handleSubmit.bind(this)} method='POST'>
                             <h3>Contact me!</h3>
@@ -86,7 +86,7 @@ class Contact extends Component {
                             </fieldset>
                         </form>
                     </FormWrap>
-                {/* </ScrollAnimation> */}
+                </ScrollAnimation>
             </Section>
         );
     }

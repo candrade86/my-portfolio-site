@@ -6,7 +6,7 @@ export const Section = styled.section`
     align-items: center;
     position: relative;
     z-index: 2;
-    height: 100vh;
+    height: 100%;
 
     background: lightgrey;
     /* border: solid green; */
