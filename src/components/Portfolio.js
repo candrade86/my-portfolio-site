@@ -23,7 +23,8 @@ const Portfolio = props => {
             </TopDiv>
 
             <BotDiv>
-                <ScrollAnimation animateIn='fadeIn' style={{height: 'auto', width: '80%', border: 'solid green', display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '10px 1%'}}>
+            {/* style={{height: 'auto', width: '80%', border: 'solid green', display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '10px 1%'}} */}
+                <ScrollAnimation animateIn='fadeIn' style={{height: 'auto', width: '80%', border: 'solid green', display: 'flex', justifyContent: 'center', alignItems: 'center'}} >
                     <a  href='https://trivializer.app'>
                         <figure className='effect-apollo' >
                             <img src={trivPicture} />
