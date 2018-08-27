@@ -21,7 +21,7 @@ export const HeaderTitle = styled.div`
     flex-direction: column;
     height: 100%;
     width: 80%;
-    font-size: 7rem;
+    font-size: 5rem;
     text-align: center;
 
     /* border: solid purple; */
