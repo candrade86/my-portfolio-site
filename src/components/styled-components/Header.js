@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
+
     position: relative;
     z-index: 6;
     top: 0;
@@ -43,8 +44,11 @@ export const Button = styled.button`
     border: 5px solid white;
     background-color: transparent;
 `
-export const Title = styled.div`
+export const TitleWrap = styled.div`
     color: white;
     font-size: 6rem;
+`
+export const Title = styled.h1`
+    font-size: 10rem;
 `
 

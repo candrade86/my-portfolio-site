@@ -11,14 +11,13 @@ export const Section = styled.section`
     
     background: #37383a;
 
-    /* border: solid green; */
 `
 
 export const TopDiv = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30%;
+    height: 20%;
     width: 100%;
 
     border: solid yellow;
@@ -28,8 +27,10 @@ export const BotDiv = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70%;
+    height: 80%;
     width: 100%;
+    padding: 4% 0;
+
     border: solid blue;
 `
 

@@ -7,6 +7,7 @@ import {
     Section,
     HeaderTitle,
     Title,
+    TitleWrap,
     ButtonWrap,
     Button
 } from './styled-components/Header'
@@ -144,7 +145,7 @@ class Header extends Component {
         scaleY: [0,1],
         opacity: [0.5,1],
         easing: "easeOutExpo",
-        duration: 700
+        duration: 2000
       })
       .add({
         targets: '.ml11 .line',
@@ -189,18 +190,18 @@ class Header extends Component {
                 <div style={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                 
                 <HeaderTitle>
-                   
+                <TitleWrap><Title className='focus-in-contract'>Hi I'm Carlos</Title></TitleWrap>
                   <div className="ml11" >
                   
                     <span style={{color: 'white'}}>$  </span> 
                     <span className="text-wrapper">
                     
                       <span className="line line1 blinker"></span>
-                      <span className="letters">I'm a fullstack developer</span>
+                      <span className="letters">and I am a fullstack developer</span>
                     </span>
                   </div>
                 
-                  <ScrollAnimation  animateIn='fadeInUp' style={{width: '100%'}} delay='1000' animateOnce='true'>
+                  <ScrollAnimation  animateIn='fadeInUp' style={{width: '100%'}} delay='2200' animateOnce='true'>
                     <ButtonWrap><AnchorLink href='#portfolio'><Button className='button'>My Portfolio</Button></AnchorLink></ButtonWrap>
                       
                       

@@ -27,7 +27,8 @@ figure {
     color: #fff;
     text-transform: uppercase;
     font-size: 6rem;
-    
+    border: solid red;
+
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }

@@ -24,20 +24,21 @@ const Portfolio = props => {
 
             <BotDiv>
             {/* style={{height: 'auto', width: '80%', border: 'solid green', display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '10px 1%'}} */}
-                <ScrollAnimation animateIn='fadeIn' style={{border: 'solid brown', height: '100%', width: '70%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                <ScrollAnimation animateIn='fadeIn' style={{border: 'solid brown', padding: '4%', height: 'auto', width: '70%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                     
-                   
+                
                         <figure className='effect-apollo' >
-                        <a style={{border: 'solid red'}} href='https://trivializer.app'>
-                            <img src={trivPicture} />
+                            <a style={{ width: 'auto', height: 'auto'}} href='https://trivializer.app'>
+                                <img src={trivPicture} />
+                            </a>         
                             <figcaption >
                                 <div style={{width: '100%', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                                 <div><h2 className='focus-in-contract' >View Trivializer</h2></div>
                                 </div>
                             </figcaption>
-                            </a>    
+                             
                         </figure>
-                    
+                     
                     
                 </ScrollAnimation>
             </BotDiv>
