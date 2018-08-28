@@ -201,7 +201,7 @@ class Header extends Component {
                     </span>
                   </div>
                 
-                  <ScrollAnimation  animateIn='fadeInUp' style={{width: '100%'}} delay='2200' animateOnce='true'>
+                  <ScrollAnimation  animateIn='fadeInUp' style={{width: '100%'}} delay='1500' animateOnce='true'>
                     <ButtonWrap><AnchorLink href='#portfolio'><Button className='button'>My Portfolio</Button></AnchorLink></ButtonWrap>
                       
                       
