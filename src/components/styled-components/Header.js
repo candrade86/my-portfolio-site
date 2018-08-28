@@ -46,6 +46,7 @@ export const Button = styled.button`
 `
 export const TitleWrap = styled.div`
     color: white;
+    margin-bottom: 3%;
     font-size: 6rem;
 `
 export const Title = styled.h1`

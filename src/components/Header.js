@@ -190,7 +190,7 @@ class Header extends Component {
                 <div style={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                 
                 <HeaderTitle>
-                <TitleWrap><Title className='fade-in-top'>Hi I'm Carlos</Title></TitleWrap>
+                <TitleWrap><Title className='fade-in-top'>Hi, I'm Carlos</Title></TitleWrap>
                   <div className="ml11" >
                   
                     <span style={{color: 'white'}}>$  </span> 
