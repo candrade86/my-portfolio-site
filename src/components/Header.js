@@ -151,20 +151,20 @@ class Header extends Component {
         targets: '.ml11 .line',
         translateX: [0,$(".ml11 .letters").width()],
         easing: "easeOutExpo",
-        duration: 800,
+        duration: 729,
         delay: 300
       }).add({
         targets: '.ml11 .letter',
         opacity: [0,1],
         easing: "easeOutExpo",
-        duration: 600,
+        duration: 620,
         // delay: -100,
         offset: '-=775',
         // delay: function(el, i) {
         //   return 34 * (i+1)
         // }
         delay: function(el, i) {
-          return 28 * (i+1)
+          return 20 * (i+1)
         }
       }).add({
         targets: '.ml11',
