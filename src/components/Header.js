@@ -145,7 +145,7 @@ class Header extends Component {
         scaleY: [0,1],
         opacity: [0.5,1],
         easing: "easeOutExpo",
-        duration: 2000
+        duration: 1500
       })
       .add({
         targets: '.ml11 .line',
@@ -190,7 +190,7 @@ class Header extends Component {
                 <div style={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                 
                 <HeaderTitle>
-                <TitleWrap><Title className='focus-in-contract'>Hi I'm Carlos</Title></TitleWrap>
+                <TitleWrap><Title className='fade-in-top'>Hi I'm Carlos</Title></TitleWrap>
                   <div className="ml11" >
                   
                     <span style={{color: 'white'}}>$  </span> 

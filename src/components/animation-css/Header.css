@@ -182,34 +182,32 @@
 
       /* Top title animation */
 
-      .focus-in-contract {
-        -webkit-animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-                animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      .fade-in-top {
+        -webkit-animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+                animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
       }
 
-      @-webkit-keyframes focus-in-contract {
+      @-webkit-keyframes fade-in-top {
         0% {
-          letter-spacing: 1em;
-          -webkit-filter: blur(12px);
-                  filter: blur(12px);
+          -webkit-transform: translateY(-50px);
+                  transform: translateY(-50px);
           opacity: 0;
         }
         100% {
-          -webkit-filter: blur(0px);
-                  filter: blur(0px);
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
           opacity: 1;
         }
       }
-      @keyframes focus-in-contract {
+      @keyframes fade-in-top {
         0% {
-          letter-spacing: 1em;
-          -webkit-filter: blur(12px);
-                  filter: blur(12px);
+          -webkit-transform: translateY(-50px);
+                  transform: translateY(-50px);
           opacity: 0;
         }
         100% {
-          -webkit-filter: blur(0px);
-                  filter: blur(0px);
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
           opacity: 1;
         }
       }
