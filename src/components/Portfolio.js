@@ -4,6 +4,7 @@ import trivPicture from '../assets/trivializer.png';
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
 
+
 import { 
     Section,
     TopDiv,
@@ -16,6 +17,7 @@ import './animation-css/Portfolio.css';
 const Portfolio = props => {
     return (
         <Section id={props.id}>
+
             <TopDiv>
             <ScrollAnimation animateIn='fadeIn'>
             <div style={{padding: '10px 1%'}}><Title> Portfolio </Title></div>
@@ -23,7 +25,7 @@ const Portfolio = props => {
             </TopDiv>
 
             <BotDiv>
-            {/* style={{height: 'auto', width: '80%', border: 'solid green', display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '10px 1%'}} */}
+            
                 <ScrollAnimation animateIn='fadeIn' style={{border: 'solid brown', padding: '4%', height: 'auto', width: '70%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                     
                 
