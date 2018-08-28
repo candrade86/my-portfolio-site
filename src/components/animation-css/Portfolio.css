@@ -8,7 +8,7 @@ figure {
     text-align: center;
     cursor: pointer;
 
-    border: solid red;
+    border: solid yellow;
     
 }
 
@@ -27,7 +27,7 @@ figure {
     color: #fff;
     text-transform: uppercase;
     font-size: 6rem;
-
+    
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }

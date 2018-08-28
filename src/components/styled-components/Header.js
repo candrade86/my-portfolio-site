@@ -43,5 +43,8 @@ export const Button = styled.button`
     border: 5px solid white;
     background-color: transparent;
 `
-
+export const Title = styled.div`
+    color: white;
+    font-size: 6rem;
+`
 

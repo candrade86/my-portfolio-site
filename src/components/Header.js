@@ -6,6 +6,7 @@ import './animation-css/Header.css';
 import {
     Section,
     HeaderTitle,
+    Title,
     ButtonWrap,
     Button
 } from './styled-components/Header'
@@ -186,22 +187,24 @@ class Header extends Component {
                     }}
                 />
                 <div style={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                
                 <HeaderTitle>
-                
-                <div className="ml11" >
-                  <span style={{color: 'white'}}>$  </span> 
-                  <span className="text-wrapper">
+                   
+                  <div className="ml11" >
                   
-                    <span className="line line1 blinker"></span>
-                    <span className="letters">I'm a fullstack developer</span>
-                  </span>
-                </div>
+                    <span style={{color: 'white'}}>$  </span> 
+                    <span className="text-wrapper">
+                    
+                      <span className="line line1 blinker"></span>
+                      <span className="letters">I'm a fullstack developer</span>
+                    </span>
+                  </div>
                 
-                <ScrollAnimation  animateIn='fadeInUp' style={{width: '100%'}} delay='1000' animateOnce='true'>
-                  <ButtonWrap><AnchorLink href='#portfolio'><Button className='button'>My Portfolio</Button></AnchorLink></ButtonWrap>
-                    
-                    
-                </ScrollAnimation>
+                  <ScrollAnimation  animateIn='fadeInUp' style={{width: '100%'}} delay='1000' animateOnce='true'>
+                    <ButtonWrap><AnchorLink href='#portfolio'><Button className='button'>My Portfolio</Button></AnchorLink></ButtonWrap>
+                      
+                      
+                  </ScrollAnimation>
                 </HeaderTitle>
                 </div>
                 {this.props.children}
