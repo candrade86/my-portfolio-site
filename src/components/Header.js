@@ -151,7 +151,7 @@ class Header extends Component {
         targets: '.ml11 .line',
         translateX: [0,$(".ml11 .letters").width()],
         easing: "easeOutExpo",
-        duration: 650,
+        duration: 800,
         delay: 300
       }).add({
         targets: '.ml11 .letter',
@@ -164,7 +164,7 @@ class Header extends Component {
         //   return 34 * (i+1)
         // }
         delay: function(el, i) {
-          return 24 * (i+1)
+          return 28 * (i+1)
         }
       }).add({
         targets: '.ml11',
