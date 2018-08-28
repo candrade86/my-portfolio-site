@@ -145,7 +145,7 @@ class Header extends Component {
         scaleY: [0,1],
         opacity: [0.5,1],
         easing: "easeOutExpo",
-        duration: 1500
+        duration: 1100
       })
       .add({
         targets: '.ml11 .line',
