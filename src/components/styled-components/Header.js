@@ -48,28 +48,36 @@ export const Button = styled.button`
         width: 30%;
     }
 
-    @media (max-width: 604px) {
+     @media (max-width: 679px) {
         width: 35%;
     }
 
-     @media (max-width: 507px) {
+    @media (max-width: 604px) {
         width: 40%;
     }
 
-    @media (max-width: 436px) {
+     @media (max-width: 570px) {
         width: 45%;
     }
 
-    @media (max-width: 383px) {
+     @media (max-width: 507px) {
         width: 50%;
     }
 
-    @media (max-width: 342px) {
+    @media (max-width: 436px) {
         width: 55%;
     }
 
-    @media (max-width: 308px) {
+    @media (max-width: 383px) {
         width: 60%;
+    }
+
+    @media (max-width: 342px) {
+        width: 65%;
+    }
+
+    @media (max-width: 308px) {
+        width: 70%;
     }
 `
 export const TitleWrap = styled.div`
