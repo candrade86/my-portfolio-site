@@ -36,7 +36,7 @@ export const ButtonWrap = styled.div`
 export const Button = styled.button`
     height: auto;
     padding: 2%;
-    width: 20%;
+    width: 30%;
     font-size: 2rem;
     word-wrap: break-word;
     font-weight: 900;
