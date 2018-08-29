@@ -72,6 +72,13 @@
     }
   }
 
+  @media (max-width: 661px) {
+    .ml11 {
+      
+      font-size: 2.5rem;
+    }
+  }
+
   @media (max-width: 567px) {
     .ml11 {
       
