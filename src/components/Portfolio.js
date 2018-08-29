@@ -30,12 +30,12 @@ const Portfolio = props => {
                     
                 
                         <figure className='effect-apollo' >
-                            <a style={{ width: 'auto', height: 'auto'}} href='https://trivializer.app'>
+                            
                                 <img src={trivPicture} />
-                            </a>         
+                                    
                             <figcaption >
                                 <div style={{width: '100%', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                                <div><h2 className='focus-in-contract' >View Trivializer</h2></div>
+                                <div><a style={{ width: 'auto', height: 'auto'}} href='https://trivializer.app'><h2 className='focus-in-contract' >View Trivializer</h2></a> </div>
                                 </div>
                             </figcaption>
                              

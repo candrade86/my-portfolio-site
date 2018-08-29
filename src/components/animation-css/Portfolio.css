@@ -1,3 +1,18 @@
+a:link {
+  color: white;  
+  text-decoration: none;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+a:visited {
+  color: white;  
+}
+
+a:hover {
+ color: purple;  
+}
+
 figure {
     position: relative;
     margin: auto;
@@ -6,8 +21,9 @@ figure {
     height: auto;
     background: #3085a3;
     text-align: center;
-    cursor: pointer;
+    
 
+    z-index: 900;
     border: solid yellow;
     
 }
