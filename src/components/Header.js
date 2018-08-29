@@ -167,7 +167,12 @@ class Header extends Component {
           return 20 * (i+1)
         }
       }).add({
-        targets: '.ml11',
+        targets: '.line',
+        opacity: 0,
+        // duration: 1000,
+        // easing: "easeOutExpo",
+        // delay: 1000
+  
       });
   }
 
@@ -192,11 +197,14 @@ class Header extends Component {
                 <TitleWrap><Title className='fade-in-top'>Hi, I'm Carlos</Title></TitleWrap>
                   <div className="ml11" >
                   
-                    <span style={{color: 'white'}}>$  </span> 
                     <span className="text-wrapper">
                     
+                     
                       <span className="line line1 blinker"></span>
+                    
+                      
                       <span className="letters">and I am a fullstack developer</span>
+                   
                     </span>
                   </div>
                 

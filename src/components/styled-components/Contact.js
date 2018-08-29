@@ -13,6 +13,14 @@ export const Section = styled.section`
 `
 
 export const FormWrap = styled.div`
-    width: 30%;
+    width: 40%;
+
+    @media ( max-width: 1140px) {
+        width: 45%;
+    }
+
+    @media ( max-width: 750px) {
+        width: 70%;
+    }
 
 `

@@ -197,8 +197,9 @@
       }
       
       .ml11 .line1 { 
+        position: absolute;
         top: -5px; 
-        /* left: 0; */
+        right: 0;
       }
       
       .ml11 .letter {
@@ -210,13 +211,15 @@
 
       .blinker {
         animation-name: blinker;
-        animation-iteration-count: infinite;
+        animation-iteration-count: 5;
         animation-timing-function: cubic-bezier(1, 0, 0, 1);
         animation-duration: 1s;
+        
+          
         display: inline-block;
         width: 8px;
         height: 100px;
-        /* margin-left: 10px; */
+        
         /* border-radius: 3px; */
         box-shadow: 0 0 10px rgba(255, 255, 255, .3);
       }
@@ -226,7 +229,9 @@
         }
         to {
           opacity: 0;
+          
         }
+
       }
 
       /* button animation */
