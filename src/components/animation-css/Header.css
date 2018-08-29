@@ -44,6 +44,89 @@
         font-weight: 900;
         font-size: 6rem;
       }
+  @media (max-width: 1134px) {
+    .ml11 {
+      
+      font-size: 4rem;
+    }
+  }
+
+  @media (max-width: 756px) {
+    .ml11 {
+      
+      font-size: 3rem;
+    }
+  }
+
+  @media (max-width: 567px) {
+    .ml11 {
+      
+      font-size: 2.3rem;
+    }
+  }
+
+  @media (max-width: 473px) {
+    .ml11 {
+      
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 435px) {
+    .ml11 {
+      
+      font-size: 1.8rem;
+    }
+  }
+
+  @media (max-width: 417px) {
+    .ml11 {
+      
+      font-size: 1.6rem;
+    }
+  }
+
+  @media (max-width: 397px) {
+    .ml11 {
+      
+      font-size: 1.5rem;
+    }
+  }
+
+  @media (max-width: 378px) {
+    .ml11 {
+      
+      font-size: 1.4rem;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .ml11 {
+      
+      font-size: 1.3rem;
+    }
+  }
+
+  @media (max-width: 342px) {
+    .ml11 {
+      
+      font-size: 1.2rem;
+    }
+  }
+
+  @media (max-width: 322px) {
+    .ml11 {
+      
+      font-size: 1.1rem;
+    }
+  }
+
+  @media (max-width: 303px) {
+    .ml11 {
+      
+      font-size: 1.1rem;
+    }
+  }
       
       .ml11 .text-wrapper {
         position: relative;
