@@ -49,6 +49,13 @@
       
       font-size: 4rem;
     }
+  } 
+
+  @media (max-width: 881px) {
+    .ml11 {
+      
+      font-size: 3.5rem;
+    }
   }
 
   @media (max-width: 756px) {
