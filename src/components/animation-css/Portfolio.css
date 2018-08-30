@@ -39,10 +39,13 @@ figure {
 }
 
  figure figcaption {
+     display: flex;
+     align-items: center;
+     justify-content: center;
     padding: 2em;
     color: #fff;
     text-transform: uppercase;
-    font-size: 6rem;
+    font-size: 5rem;
     border: solid red;
 
     -webkit-backface-visibility: hidden;
@@ -142,5 +145,41 @@ figure.effect-apollo:hover h2 {
     transition-delay: 0.1s;
 }
 
+/* background animation */
 
+.color-change-4x {
+	-webkit-animation: color-change-4x 6s linear infinite alternate both;
+	        animation: color-change-4x 6s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-4x {
+    0% {
+      background: #0095ff;
+    }
+    33.3333% {
+      background: #37383a;
+    }
+    66.666% {
+      background: #b22cff;
+    }
+    100% {
+      background: #f5be10;
+    }
+  }
+  @keyframes color-change-4x {
+    0% {
+        background: #0095ff;
+      }
+      33.3333% {
+        background: #37383a;
+      }
+      66.666% {
+        background: #b22cff;
+      }
+      100% {
+        background: #f5be10;
+      }
+    }
+  
+  
   

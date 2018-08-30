@@ -16,7 +16,7 @@ import './animation-css/Portfolio.css';
 
 const Portfolio = props => {
     return (
-        <Section id={props.id}>
+        <Section id={props.id} className='color-change-4x'>
 
             <TopDiv>
             <ScrollAnimation animateIn='fadeIn'>

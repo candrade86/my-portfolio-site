@@ -16,6 +16,9 @@ export const Section = styled.section`
     /* border: solid green; */
 `
 export const Top = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 10%;
 
@@ -28,7 +31,7 @@ export const LeftDiv = styled.div`
     justify-content: center;
     align-items: center;*/
     width: 45%;
-    height: 90%; 
+    height: 95%; 
     
     border: solid red;
 `
@@ -58,12 +61,12 @@ export const TopLeft = styled.div`
 `
 
 export const RightDiv = styled.div`
-    /* position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;*/
+    /* position: relative;*/
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
     width: 45%;
-    height: 80%; 
+    height: 95%; 
     
 
     border: solid red;
