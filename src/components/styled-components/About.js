@@ -7,20 +7,28 @@ export const Section = styled.section`
     width: 100%;
     background: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    flex-direction: column;
    
    
 
     /* border: solid green; */
 `
+export const Top = styled.div`
+    width: 100%;
+    height: 10%;
+
+    border: solid yellow;
+`
+
 export const LeftDiv = styled.div`
     /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;*/
     width: 45%;
-    height: 100%; 
+    height: 90%; 
     
     border: solid red;
 `
@@ -55,7 +63,7 @@ export const RightDiv = styled.div`
     justify-content: center;
     align-items: center;*/
     width: 45%;
-    height: 100%; 
+    height: 80%; 
     
 
     border: solid red;

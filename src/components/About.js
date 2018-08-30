@@ -12,6 +12,7 @@ import {
     Text,
     Image,
     ImageWrap,
+    Top,
     TopLeft,
     BotLeft,
 } from './styled-components/About';
@@ -37,9 +38,10 @@ const About = props => {
     
     return (
         <Section id={props.id}>
-        {/* <div style={{  border: 'solid skyblue', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}> */}
+            <Top><h1 style={{fontSize: '3rem'}}>About</h1></Top>
+        <div style={{ border: 'solid red', width: '100%', height: '90%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}> 
             <LeftDiv>
-            
+           
             <ScrollAnimation animateIn='fadeIn' style={{height: '100%', width: '100%'}}>
                 
                 <TopLeft>
@@ -81,7 +83,7 @@ const About = props => {
                 
               </ScrollAnimation>  
             </RightDiv>
-        
+        </div>
             {/* </div> */}
         </Section>
     );
