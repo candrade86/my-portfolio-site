@@ -39,6 +39,7 @@ const About = props => {
     
     return (
         <Section id={props.id}>
+            
             <Top><div><Title>About</Title></div></Top>
         <div style={{ border: 'solid red', width: '100%', height: '90%', display: 'flex', justifyContent: 'space-around', alignItems: 'center'}}> 
             <LeftDiv>

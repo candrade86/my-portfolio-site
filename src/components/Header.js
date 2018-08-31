@@ -158,21 +158,13 @@ class Header extends Component {
         opacity: [0,1],
         easing: "easeOutExpo",
         duration: 620,
-        // delay: -100,
         offset: '-=775',
-        // delay: function(el, i) {
-        //   return 34 * (i+1)
-        // }
         delay: function(el, i) {
           return 20 * (i+1)
         }
       }).add({
         targets: '.line',
-        opacity: 0,
-        // duration: 1000,
-        // easing: "easeOutExpo",
-        // delay: 1000
-  
+        opacity: 0, 
       });
   }
 
@@ -209,9 +201,11 @@ class Header extends Component {
                   </div>
                 
                   <ScrollAnimation  animateIn='fadeInUp' style={{width: '100%'}} delay='1600' animateOnce='true'>
-                    <ButtonWrap><AnchorLink href='#portfolio'><Button className='button'>My Portfolio</Button></AnchorLink></ButtonWrap>
-                      
-                      
+                    <ButtonWrap><AnchorLink href='#portfolio'><Button className='button'>My Portfolio</Button></AnchorLink></ButtonWrap>               
+                  </ScrollAnimation>
+
+                  <ScrollAnimation  animateIn='fadeInUp' style={{width: '100%'}} delay='1900' animateOnce='true'>
+                    <ButtonWrap><a href='https://resume.creddle.io/resume/7frv18zyv0u'><Button className='button'>My Résumé</Button></a></ButtonWrap>               
                   </ScrollAnimation>
                 </HeaderTitle>
                 </div>
