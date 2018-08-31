@@ -32,6 +32,6 @@ export const BotDiv = styled.div`
 `
 
 export const Title = styled.h1`
-    
+    font-family: 'Muli', sans-serif;
     font-size: 5rem;
 `

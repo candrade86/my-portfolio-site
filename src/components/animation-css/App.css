@@ -52,7 +52,7 @@
     height: 27px;
     width: 35px;
     cursor: pointer;
-    z-index: 200;
+    z-index: 1001;
     transition: opacity 0.25s ease;
   }
   .button_container:hover {
@@ -78,6 +78,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    
     transition: all 0.35s ease;
     cursor: pointer;
   }
@@ -148,6 +149,7 @@
     display: block;
     position: relative;
     color: #fff;
+    font-family: 'Muli', sans-serif;
     text-decoration: none;
     overflow: hidden;
   }

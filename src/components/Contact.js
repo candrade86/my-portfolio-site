@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 import { backendAPI } from '../config.js'
 import { 
     Section,
-    FormWrap 
+    FormWrap,
+    Title 
 } from './styled-components/Contact';
 
 import './animation-css/Contact.css';
@@ -51,17 +52,17 @@ class Contact extends Component {
                  <ScrollAnimation animateIn='fadeIn' style={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <FormWrap>
                         <form id='contact-form' className='contact' onSubmit={this.handleSubmit.bind(this)} method='POST'>
-                            <h3>Contact me!</h3>
+                            <Title>Contact me!</Title>
             
                             <fieldset>
-                            <input id='name' placeholder='Your name' type='text' tabindex='1' required autofocus />
+                            <input style={{fontFamily: 'Ovo, serif', fontSize: '2rem'}} id='name' placeholder='Your name' type='text' tabindex='1' required autofocus />
                             </fieldset>
                             <fieldset>
-                            <input id='email' placeholder='Your Email Address' type='email' tabindex='2' required />
+                            <input style={{fontFamily: 'Ovo, serif', fontSize: '2rem'}} id='email' placeholder='Your Email Address' type='email' tabindex='2' required />
                             </fieldset>
                             
                             <fieldset>
-                            <textarea id='message' placeholder='Type your message here....' tabindex='3' required></textarea>
+                            <textarea style={{fontFamily: 'Ovo, serif', fontSize: '2rem'}} id='message' placeholder='Type your message here....' tabindex='3' required></textarea>
                             </fieldset>
 
                             

@@ -21,8 +21,14 @@ export const Top = styled.div`
     justify-content: center;
     width: 100%;
     height: 10%;
+    font-family: 'Muli', sans-serif;
 
     border: solid yellow;
+`
+
+export const Title = styled.h1`
+    font-size: 4rem;
+    font-family: 'Muli', sans-serif;
 `
 
 export const LeftDiv = styled.div`
@@ -87,6 +93,6 @@ export const ImageWrap = styled.div`
 
 export const Text = styled.p`
     font-size: 2.5rem;
+    font-family: 'Ovo', serif;
     line-height: 300%;
-    
 `

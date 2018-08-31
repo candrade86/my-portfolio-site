@@ -51,10 +51,13 @@ table {
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Muli|Ovo');
+
 html, body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Muli', sans-serif;
+  font-family: 'Ovo', serif;
   font-size: 62.5%;
   height: 100%;
   background: #201b1b;

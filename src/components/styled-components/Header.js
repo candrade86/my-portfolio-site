@@ -23,6 +23,7 @@ export const HeaderTitle = styled.div`
     height: 100%;
     width: 80%;
     text-align: center;
+    
 
     /* border: solid purple; */
 
@@ -38,6 +39,7 @@ export const Button = styled.button`
     padding: 2%;
     width: 30%;
     font-size: 2rem;
+    font-family: 'Ovo', serif; 
     word-wrap: break-word;
     font-weight: 900;
     color: white;
@@ -87,6 +89,7 @@ export const TitleWrap = styled.div`
 `
 export const Title = styled.h1`
     font-size: 10rem;
+    font-family: 'Muli', sans-serif;
 
       @media (max-width: 707px) {
         font-size: 8.5rem;

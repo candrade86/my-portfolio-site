@@ -11,6 +11,10 @@ export const Section = styled.section`
     background: lightgrey;
     /* border: solid green; */
 `
+export const Title = styled.h3`
+    font-family: 'Muli', sans-serif;
+    font-size: 4rem;
+`
 
 export const FormWrap = styled.div`
     width: 40%;

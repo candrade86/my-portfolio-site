@@ -13,6 +13,7 @@ import {
     Image,
     ImageWrap,
     Top,
+    Title,
     TopLeft,
     BotLeft,
 } from './styled-components/About';
@@ -38,7 +39,7 @@ const About = props => {
     
     return (
         <Section id={props.id}>
-            <Top><div><h1 style={{fontSize: '3rem'}}>About</h1></div></Top>
+            <Top><div><Title>About</Title></div></Top>
         <div style={{ border: 'solid red', width: '100%', height: '90%', display: 'flex', justifyContent: 'space-around', alignItems: 'center'}}> 
             <LeftDiv>
            
