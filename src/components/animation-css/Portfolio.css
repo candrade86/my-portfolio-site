@@ -21,11 +21,18 @@ figure {
     height: auto;
     background: #3085a3;
     text-align: center;
-    
-
     z-index: 900;
+
+   
+
     border: solid yellow;
     
+}
+
+@media (max-width: 879px ){
+    figure {
+        width: 100%;        
+    }
 }
 
  figure img {

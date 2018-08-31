@@ -10,11 +10,19 @@ export const Section = styled.section`
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-   
-   
+    
+    @media (max-width: 879px ){
+        height: 100%;
 
-    /* border: solid green; */
+    }
 `
+export const DivWrap = styled.div`
+    @media (max-width: 879px ){
+        flex-direction: column;
+        width: 100%;
+    }
+`
+
 export const Top = styled.div`
     display: flex;
     align-items: center;
@@ -38,6 +46,10 @@ export const LeftDiv = styled.div`
     align-items: center;*/
     width: 45%;
     height: 95%; 
+
+      @media (max-width: 879px ){
+        width: 100%;
+    }
     
     border: solid red;
 `
@@ -74,6 +86,9 @@ export const RightDiv = styled.div`
     width: 45%;
     height: 95%; 
     
+    @media (max-width: 879px ){
+        width: 100%;
+    }
 
     border: solid red;
 `
