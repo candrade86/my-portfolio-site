@@ -43,7 +43,7 @@ const About = props => {
         <div style={{ border: 'solid red', width: '100%', height: '90%', display: 'flex', justifyContent: 'space-around', alignItems: 'center'}}> 
             <LeftDiv>
            
-            <ScrollAnimation animateIn='bounceInDown' style={{height: '100%', width: '100%'}}>
+            <ScrollAnimation animateIn='bounceIn' style={{height: '100%', width: '100%'}}>
                 
                 <TopLeft>
                     
@@ -67,7 +67,7 @@ const About = props => {
         
 
             <RightDiv>
-            <ScrollAnimation animateIn='bounceInDown' style={{height: '100%', position: 'relative', zIndex: '999'}} >
+            <ScrollAnimation animateIn='bounceIn' style={{height: '100%', position: 'relative', zIndex: '999'}} >
                 
 
         
