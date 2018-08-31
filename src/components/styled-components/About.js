@@ -73,7 +73,7 @@ export const RightDiv = styled.div`
 `
 
 export const Image = styled.img`
-    width: 40%;
+    width: 33%;
     height: auto;
     
     border-radius: 50%;

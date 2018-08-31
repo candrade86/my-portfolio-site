@@ -39,10 +39,10 @@ const About = props => {
     return (
         <Section id={props.id}>
             <Top><div><h1 style={{fontSize: '3rem'}}>About</h1></div></Top>
-        <div style={{ border: 'solid red', width: '100%', height: '90%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}> 
+        <div style={{ border: 'solid red', width: '100%', height: '90%', display: 'flex', justifyContent: 'space-around', alignItems: 'center'}}> 
             <LeftDiv>
            
-            <ScrollAnimation animateIn='fadeIn' style={{height: '100%', width: '100%'}}>
+            <ScrollAnimation animateIn='bounceInDown' style={{height: '100%', width: '100%'}}>
                 
                 <TopLeft>
                     
@@ -52,7 +52,7 @@ const About = props => {
                     
                 </TopLeft>
                     
-                <BotLeft>
+                <BotLeft >
                     
                     <Text>
                         Nam ac facilisis orci, at rutrum sem. Nam et enim lorem. Aenean pulvinar augue ut arcu viverra laoreet. Integer mattis mattis dolor, eu ultrices diam cursus vel. Integer sagittis, felis vel varius placerat, urna orci mattis metus, non accumsan ante erat quis libero. Fusce dictum orci nec egestas mollis. Integer sodales pharetra vulputate.
@@ -66,11 +66,11 @@ const About = props => {
         
 
             <RightDiv>
-            <ScrollAnimation animateIn='fadeIn' style={{height: '100%'}} >
+            <ScrollAnimation animateIn='bounceInDown' style={{height: '100%', position: 'relative', zIndex: '999'}} >
                 
 
         
-                    <div className="charts">
+                    <div className="charts slide-in-right">
                         <div className="chart chart--dev">
                         
                         <ul className="chart--horiz">

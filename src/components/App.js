@@ -5,7 +5,7 @@ import Portfolio from './Portfolio';
 import About from './About';
 import Blog from './Blog';
 import Contact from './Contact';
-
+import Footer from './Footer';
 //dependencies 
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import './animation-css/App.css';
