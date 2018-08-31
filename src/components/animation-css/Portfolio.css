@@ -148,7 +148,7 @@ figure.effect-apollo:hover h2 {
 /* background animation */
 
 .hero-bkg-animated {
-    background: gray url('../../assets/barracuda.jpg');
+    background: gray;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
