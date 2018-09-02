@@ -31,7 +31,7 @@ class Portfolio extends Component {
 
                 <BotDiv>
                 
-                    <ScrollAnimation animateIn='fadeIn' style={{border: 'solid brown', padding: '4%', height: 'auto', width: '70%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                    <ScrollAnimation animateIn='fadeIn' style={{ padding: '4%', height: 'auto', width: '70%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                         
                     
                             <figure className='effect-apollo' >

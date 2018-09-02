@@ -17,7 +17,7 @@ export const TopDiv = styled.div`
     height: 20%;
     width: 100%;
 
-    border: solid yellow;
+    /* border: solid yellow; */
 `
 
 export const BotDiv = styled.div`
@@ -28,7 +28,7 @@ export const BotDiv = styled.div`
     width: 100%;
     padding: 4% 0;
 
-    border: solid blue;
+    /* border: solid blue; */
 `
 
 export const Title = styled.h1`

@@ -31,7 +31,7 @@ export const Top = styled.div`
     height: 10%;
     font-family: 'Muli', sans-serif;
 
-    border: solid yellow;
+    /* border: solid yellow; */
 `
 
 export const Title = styled.h1`
@@ -40,10 +40,6 @@ export const Title = styled.h1`
 `
 
 export const LeftDiv = styled.div`
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;*/
     width: 45%;
     height: 95%; 
 
@@ -54,35 +50,22 @@ export const LeftDiv = styled.div`
     border: solid red;
 `
 export const BotLeft = styled.div`
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-    width: 100%;
-    height: 100%;
-     */
     height: 60%;
     overflow: auto;
     padding: 0 5%;
 
-    border: solid pink;
+    /* border: solid pink; */
 `
 
 export const TopLeft = styled.div`
-    /* width: 100%;
-    height: 100%; */
     height: 40%;
-    border: solid green;
+
+    /* border: solid green; */
 
 
 `
 
 export const RightDiv = styled.div`
-    /* position: relative;*/
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
     width: 45%;
     height: 95%; 
     

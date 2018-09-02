@@ -4,8 +4,8 @@ export const Section = styled.section`
 
     position: relative;
     z-index: 6;
-    top: 0;
-    margin: 0;
+    /* top: 0;
+    margin: 0; */
     height: 100vh;
     background: #37383a;
     /* border: solid red; */
