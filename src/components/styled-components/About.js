@@ -92,5 +92,14 @@ export const ImageWrap = styled.div`
 export const Text = styled.p`
     font-size: 2.5rem;
     font-family: 'Ovo', serif;
-    line-height: 300%;
+    line-height: 200%;
+`
+export const BoldText = styled.p`
+    font-size: 5rem;
+    font-weight: 1000;
+    text-align: center;
+
+    @media (max-width: 881px) {
+        font-size: 3rem;
+    }
 `

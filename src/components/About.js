@@ -11,6 +11,7 @@ import {
     LeftDiv,
     RightDiv,
     Text,
+    BoldText,
     Image,
     ImageWrap,
     Top,
@@ -58,7 +59,9 @@ const About = props => {
                 <BotLeft >
                     
                     <Text>
-                        Nam ac facilisis orci, at rutrum sem. Nam et enim lorem. Aenean pulvinar augue ut arcu viverra laoreet. Integer mattis mattis dolor, eu ultrices diam cursus vel. Integer sagittis, felis vel varius placerat, urna orci mattis metus, non accumsan ante erat quis libero. Fusce dictum orci nec egestas mollis. Integer sodales pharetra vulputate.
+                        <BoldText>I'm a fullstack developer from New York, New York.</BoldText>
+
+                        When I'm not hacking away on projects and learning about new technologies, I'm interacting with people from cultures around the world as  an online ESL teacher.
                     </Text>
                     
                 </BotLeft>
