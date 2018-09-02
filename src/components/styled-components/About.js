@@ -42,6 +42,7 @@ export const Title = styled.h1`
 export const LeftDiv = styled.div`
     width: 45%;
     height: 95%; 
+    border-radius: 2%;
 
       @media (max-width: 879px ){
         width: 100%;
@@ -68,10 +69,15 @@ export const TopLeft = styled.div`
 export const RightDiv = styled.div`
     width: 45%;
     height: 95%; 
+    border-radius: 2%;
+    overflow: scroll;
     
     @media (max-width: 879px ){
         width: 100%;
     }
+
+ 
+
 
     border: solid red;
 `
@@ -90,14 +96,16 @@ export const ImageWrap = styled.div`
 `
 
 export const Text = styled.p`
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-family: 'Ovo', serif;
-    line-height: 200%;
+    line-height: 150%;
+    text-align: center;
+    overflow: auto;
 `
 export const BoldText = styled.p`
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 1000;
-    text-align: center;
+    /* text-align: center; */
 
     @media (max-width: 881px) {
         font-size: 3rem;

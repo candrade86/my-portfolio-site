@@ -59,7 +59,9 @@ const About = props => {
                 <BotLeft >
                     
                     <Text>
-                        <BoldText>I'm a fullstack developer from New York, New York.</BoldText>
+                        <BoldText>I'm a fullstack developer from</BoldText>
+
+                        <BoldText>New York, New York.</BoldText>
 
                         When I'm not hacking away on projects and learning about new technologies, I'm interacting with people from cultures around the world as  an online ESL teacher.
                     </Text>
