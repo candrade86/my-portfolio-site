@@ -6,6 +6,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: auto;
+    
     
     
     border: solid pink;
@@ -13,7 +15,7 @@
   .chart {
     display: flex;
     align-items: center;
-    height: 90%;
+    height: auto;
     width: 90%;
 
     border: solid purple;
@@ -24,13 +26,13 @@
     margin: 0;
   }
 
-  .chart__title {
+  /* .chart__title {
     display: block;
     margin: 0 0 10px;
     font-weight: bold;
     opacity: 0;
     animation: 1s anim-lightspeed-in ease forwards;
-  }
+  } */
   .chart--prod .chart__title {
     animation-delay: 3.3s;
   }
