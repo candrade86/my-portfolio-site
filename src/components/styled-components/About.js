@@ -70,7 +70,7 @@ export const RightDiv = styled.div`
     width: 45%;
     height: 95%; 
     border-radius: 2%;
-    overflow: scroll;
+    /* overflow: scroll; */
     
     @media (max-width: 879px ){
         width: 100%;

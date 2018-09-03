@@ -57,15 +57,19 @@ const About = props => {
                 </TopLeft>
                     
                 <BotLeft >
-                    
-                    <Text>
-                        <BoldText>I'm a fullstack developer from</BoldText>
+                    <div style={{ height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'space-around', textAlign: 'center'}}>
+                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+                            <div><BoldText>I'm a fullstack developer from</BoldText></div>
 
-                        <BoldText>New York, New York.</BoldText>
+                            <div><BoldText>New York, New York.</BoldText></div>
+                        </div>
 
-                        When I'm not hacking away on projects and learning about new technologies, I'm interacting with people from cultures around the world as  an online ESL teacher.
-                    </Text>
-                    
+                        <div>
+                            <Text>
+                                When I'm not hacking away on projects and learning about new technologies, I'm interacting with people from cultures around the world as  an online ESL teacher.
+                            </Text>
+                        </div>
+                    </div>
                 </BotLeft>
                 
                 </ScrollAnimation>
