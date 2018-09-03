@@ -43,6 +43,7 @@ export const LeftDiv = styled.div`
     width: 45%;
     height: 95%; 
     border-radius: 2%;
+    overflow: auto;
 
       @media (max-width: 879px ){
         width: 100%;
@@ -70,7 +71,6 @@ export const RightDiv = styled.div`
     width: 45%;
     height: 95%; 
     border-radius: 2%;
-    /* overflow: scroll; */
     
     @media (max-width: 879px ){
         width: 100%;
