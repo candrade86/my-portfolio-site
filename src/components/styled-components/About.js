@@ -47,6 +47,7 @@ export const LeftDiv = styled.div`
     height: 95%; 
     border-radius: 2%;
     overflow: auto;
+    padding-top: 2%;
     box-shadow: 0 0 11px rgba(33,33,33,.2); 
 
       @media (max-width: 879px ){
@@ -77,6 +78,7 @@ export const RightDiv = styled.div`
     width: 45%;
     height: 95%; 
     border-radius: 2%;
+    padding: 2px 0;
     box-shadow: 0 0 11px rgba(33,33,33,.2); 
     
     @media (max-width: 879px ){
@@ -94,13 +96,15 @@ export const RightDiv = styled.div`
 export const Image = styled.img`
     width: 33%;
     height: auto;
-    
+    margin: 2% 0;
     border-radius: 50%;
+    /* padding-top: 2%; */
 `
 export const ImageWrap = styled.div`
     display: flex;
     justify-content: center;
     height: 100%;
+    
     align-items: center;
 `
 
@@ -114,6 +118,7 @@ export const Text = styled.p`
 export const BoldText = styled.p`
     font-size: 3rem;
     font-weight: 1000;
+    margin-bottom: 2%;
     /* text-align: center; */
 
     @media (max-width: 881px) {

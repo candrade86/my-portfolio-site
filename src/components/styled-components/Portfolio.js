@@ -24,7 +24,7 @@ export const BotDiv = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80%;
+    height: 90%;
     width: 100%;
     padding: 4% 0;
 

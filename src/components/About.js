@@ -66,7 +66,7 @@ const About = props => {
 
                         <div>
                             <Text>
-                                When I'm not hacking away on projects and learning about new technologies, I'm interacting with people from cultures around the world as  an online ESL teacher.
+                                When I'm not hacking away at projects and learning about new technologies, I'm interacting with people from cultures around the world as  an online ESL teacher.
                             </Text>
                         </div>
                     </div>
