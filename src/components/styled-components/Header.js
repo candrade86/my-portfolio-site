@@ -7,7 +7,7 @@ export const Section = styled.section`
     /* top: 0;
     margin: 0; */
     height: 100vh;
-    background: #37383a;
+    background: #637081;
     /* border: solid red; */
  
 `

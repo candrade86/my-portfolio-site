@@ -31,7 +31,7 @@ const particleOpt = {
           }
         },
         "color": {
-          "value": "#292989"
+          "value": "#ACCBE1"
         },
         "shape": {
           "type": "circle",

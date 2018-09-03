@@ -8,7 +8,7 @@ export const Section = styled.section`
     z-index: 2;
     height: 100%;
 
-    background: lightgrey;
+    background: #536B78;
     /* border: solid green; */
 `
 export const Title = styled.h3`
