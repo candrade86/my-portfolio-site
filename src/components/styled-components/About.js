@@ -122,6 +122,7 @@ export const BoldText = styled.p`
     font-size: 3rem;
     font-weight: 1000;
     margin-bottom: 2%;
+    color: #24292F;
     /* text-align: center; */
 
     @media (max-width: 881px) {

@@ -71,7 +71,7 @@
     background: white;
   }
   .button_container span {
-    background: blue;
+    background: #37383a;
     border: none;
     height: 5px;
     width: 100%;
@@ -90,7 +90,7 @@
   }
   .overlay {
     position: fixed;
-    background: blue;
+    background: #536B78;
     z-index: 1000;
     top: 0;
     left: 0;
