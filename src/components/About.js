@@ -43,7 +43,7 @@ const About = props => {
         <Section id={props.id}>
             
             <Top><div><Title>About</Title></div></Top>
-        <DivWrap style={{ width: '100%', height: '90%', display: 'flex', justifyContent: 'space-around', alignItems: 'center'}}> 
+        <DivWrap style={{ padding: '2%', width: '100%', height: '90%', display: 'flex', justifyContent: 'space-around', alignItems: 'center'}}> 
             <LeftDiv>
            
             <ScrollAnimation animateIn='fadeIn' style={{height: '100%', width: '100%'}}>

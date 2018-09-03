@@ -88,6 +88,7 @@ export const TitleWrap = styled.div`
     font-size: 6rem;
 `
 export const Title = styled.h1`
+    
     font-size: 10rem;
     font-family: 'Muli', sans-serif;
 
