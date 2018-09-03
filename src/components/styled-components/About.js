@@ -56,6 +56,7 @@ export const LeftDiv = styled.div`
         width: 100%;
         border-radius: 0px;
         border: none;
+        box-shadow: none; 
     }
     
     /* border: solid #37383a; */
@@ -88,6 +89,7 @@ export const RightDiv = styled.div`
         width: 100%;
         border: none;
         border-radius: 0px;
+        box-shadow: none; 
     }
 
  
