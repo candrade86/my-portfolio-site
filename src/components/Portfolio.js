@@ -24,9 +24,7 @@ class Portfolio extends Component {
             <Section id={this.props.id} className='hero-bkg-animated'>
 
                 <TopDiv>
-                <ScrollAnimation animateIn='fadeIn'>
                 <div style={{padding: '10px 1%'}}><Title> Portfolio </Title></div>
-                </ScrollAnimation>
                 </TopDiv>
 
                 <BotDiv>

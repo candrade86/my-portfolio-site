@@ -14,7 +14,7 @@ export const TopDiv = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20%;
+    height: 10%;
     width: 100%;
 
     /* border: solid yellow; */
@@ -32,6 +32,8 @@ export const BotDiv = styled.div`
 `
 
 export const Title = styled.h1`
+     font-size: 4rem;
     font-family: 'Muli', sans-serif;
-    font-size: 5rem;
+    font-weight: 1000;
+    
 `

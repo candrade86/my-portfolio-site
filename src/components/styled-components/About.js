@@ -37,19 +37,25 @@ export const Top = styled.div`
 export const Title = styled.h1`
     font-size: 4rem;
     font-family: 'Muli', sans-serif;
+    font-weight: 1000;
+    padding: 5px 0;
 `
 
 export const LeftDiv = styled.div`
+    
     width: 45%;
     height: 95%; 
     border-radius: 2%;
     overflow: auto;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
 
       @media (max-width: 879px ){
         width: 100%;
+        border-radius: 0px;
+        border: none;
     }
     
-    border: solid red;
+    border: solid #37383a;
 `
 export const BotLeft = styled.div`
     height: 60%;
@@ -71,15 +77,18 @@ export const RightDiv = styled.div`
     width: 45%;
     height: 95%; 
     border-radius: 2%;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
     
     @media (max-width: 879px ){
         width: 100%;
+        border: none;
+        border-radius: 0px;
     }
 
  
 
 
-    border: solid red;
+    border: solid #37383a;
 `
 
 export const Image = styled.img`

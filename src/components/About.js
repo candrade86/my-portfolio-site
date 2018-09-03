@@ -24,8 +24,8 @@ import './animation-css/About.css';
 import pic from '../assets/carlos.png';
 
 
-const data = [65, 59, 80, 81, 82, 85, 80, 79, 60,];
-const labels = ['Javascript', 'React', 'React Native', 'Redux', 'Node.js', 'CSS', 'HTML5',  'MongoDB', 'Photoshop']
+const data = [65, 100, 80, 81, 82, 85, 80, 79];
+const labels = ['Javascript', 'React', 'React Native', 'Redux', 'Node.js', 'CSS', 'HTML5',  'MongoDB']
 let label;
 let barGraph = data.map((d,i) => {
    return ( 
@@ -46,7 +46,7 @@ const About = props => {
         <DivWrap style={{ width: '100%', height: '90%', display: 'flex', justifyContent: 'space-around', alignItems: 'center'}}> 
             <LeftDiv>
            
-            <ScrollAnimation animateIn='bounceIn' style={{height: '100%', width: '100%'}}>
+            <ScrollAnimation animateIn='fadeIn' style={{height: '100%', width: '100%'}}>
                 
                 <TopLeft>
                     
@@ -59,9 +59,9 @@ const About = props => {
                 <BotLeft >
                     <div style={{ height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'space-around', textAlign: 'center'}}>
                         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-                            <div><BoldText>I'm a fullstack developer from</BoldText></div>
+                            <div style={{ height: '100%'}}><BoldText>I'm a fullstack developer from</BoldText></div>
 
-                            <div><BoldText>New York, New York.</BoldText></div>
+                            <div style={{ height: '100%'}}><BoldText>New York, New York.</BoldText></div>
                         </div>
 
                         <div>
@@ -78,7 +78,7 @@ const About = props => {
         
 
             <RightDiv>
-            <ScrollAnimation animateIn='bounceIn' style={{height: '100%', position: 'relative', zIndex: '999'}} >
+            <ScrollAnimation animateIn='fadeIn' style={{height: '100%', position: 'relative', zIndex: '999'}} >
                 
 
         
