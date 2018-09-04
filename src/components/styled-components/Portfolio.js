@@ -17,11 +17,7 @@ export const TopDiv = styled.div`
     align-items: center;
     height: 10%;
     width: 100%;
-    /* background: #7C98B3; */
     background: #ACCBE1;
-    
-
-    /* border: solid yellow; */
 `
 
 export const BotDiv = styled.div`
@@ -32,8 +28,6 @@ export const BotDiv = styled.div`
     width: 100%;
     padding: 4% 0;
     background: #ACCBE1;
-
-    /* border: solid blue; */
 `
 
 export const Title = styled.h1`

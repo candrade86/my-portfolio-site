@@ -6,7 +6,7 @@ import About from './About';
 import Blog from './Blog';
 import Contact from './Contact';
 import Footer from './Footer';
-//dependencies 
+
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import './animation-css/App.css';
 
@@ -14,9 +14,7 @@ import $ from 'jquery';
 
 import { 
     AppWrapper,
-    LinkWrap,
-    HeaderLinkWrap,
-    Nav, 
+    Nav
   } from './styled-components/App';
 
 

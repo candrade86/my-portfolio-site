@@ -4,12 +4,8 @@ export const Section = styled.section`
 
     position: relative;
     z-index: 6;
-    /* top: 0;
-    margin: 0; */
     height: 100vh;
     background: #637081;
-    /* border: solid red; */
- 
 `
 
 
@@ -23,10 +19,6 @@ export const HeaderTitle = styled.div`
     height: 100%;
     width: 80%;
     text-align: center;
-    
-
-    /* border: solid purple; */
-
 `
 export const ButtonWrap = styled.div`
     margin-top: 3%;

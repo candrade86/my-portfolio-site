@@ -6,7 +6,6 @@ import {
 } from './styled-components/Footer';
 import './animation-css/Footer.css';
 
-// import github from '../assets/github.png'
 
 class Footer extends Component {
     render(){

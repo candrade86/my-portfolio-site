@@ -3,10 +3,6 @@ import styled from 'styled-components';
 export const AppWrapper = styled.div`
     margin: 0 auto;
     height: 100%;
-    
-
-    /* border: solid purple; */
-
 `
 
 export const Nav = styled.nav`
@@ -23,13 +19,4 @@ export const Nav = styled.nav`
     background: #212121;
     color: #ccc;
     text-align: center;
-
-    /* border: solid pink; */
-    
-`
-export const LinkWrap = styled.div`
-  
-`
-export const HeaderLinkWrap = styled.div`
-
 `

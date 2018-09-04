@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { device } from './MediaQueries';
 
 export const Section = styled.section`
     position: relative;
@@ -30,8 +29,6 @@ export const Top = styled.div`
     width: 100%;
     height: 10%;
     font-family: 'Muli', sans-serif;
-
-    /* border: solid yellow; */
 `
 
 export const Title = styled.h1`
@@ -43,7 +40,6 @@ export const Title = styled.h1`
 `
 
 export const LeftDiv = styled.div`
-    
     width: 45%;
     height: 95%; 
     border-radius: 2%;
@@ -58,23 +54,15 @@ export const LeftDiv = styled.div`
         border: none;
         box-shadow: none; 
     }
-    
-    /* border: solid #37383a; */
 `
 export const BotLeft = styled.div`
     height: 60%;
     overflow: auto;
     padding: 0 5%;
-
-    /* border: solid pink; */
 `
 
 export const TopLeft = styled.div`
     height: 40%;
-
-    /* border: solid green; */
-
-
 `
 
 export const RightDiv = styled.div`
@@ -91,11 +79,6 @@ export const RightDiv = styled.div`
         border-radius: 0px;
         box-shadow: none; 
     }
-
- 
-
-
-    /* border: solid #37383a; */
 `
 
 export const Image = styled.img`
@@ -103,7 +86,6 @@ export const Image = styled.img`
     height: auto;
     margin: 2% 0;
     border-radius: 50%;
-    /* padding-top: 2%; */
 `
 export const ImageWrap = styled.div`
     display: flex;
@@ -125,7 +107,6 @@ export const BoldText = styled.p`
     font-weight: 1000;
     margin-bottom: 2%;
     color: #24292F;
-    /* text-align: center; */
 
     @media (max-width: 881px) {
         font-size: 3rem;
