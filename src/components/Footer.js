@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 
 import {
-     FooterWrap,
-     DivWrap,
-     GitHub
+     FooterWrap
 
 } from './styled-components/Footer';
 import './animation-css/Footer.css';
