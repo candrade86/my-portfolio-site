@@ -22,18 +22,18 @@
 
   @keyframes icon3d {
     0% {
-      text-shadow: 5px 4px rgba(244,67,54,1), -5px -6px rgba(33,150,243,1);
+      text-shadow: 5px 4px #CEE5F2, -5px -6px #7C98B3;
     }
     25% {
-      text-shadow: -5px -6px rgba(244,67,54,1), 5px 4px rgba(33,150,243,1);
+      text-shadow: -5px -6px #CEE5F2, 5px 4px #7C98B3;
     }
     50% {
-      text-shadow: 5px -4px rgba(244,67,54,1), -8px 4px rgba(33,150,243,1);
+      text-shadow: 5px -4px #CEE5F2, -8px 4px #7C98B3;
     }
     75% {
-      text-shadow: -8px -4px rgba(244,67,54,1), -5px -4px rgba(33,150,243,1);
+      text-shadow: -8px -4px #CEE5F2, -5px -4px #7C98B3;
     }
     100% {
-      text-shadow: -5px 0 rgba(244,67,54,1), 5px -4px rgba(33,150,243,1);
+      text-shadow: -5px 0 #CEE5F2, 5px -4px rgba#7C98B3;
     }
   }  
