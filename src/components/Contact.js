@@ -52,8 +52,11 @@ class Contact extends Component {
                  <ScrollAnimation animateIn='fadeIn' style={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <FormWrap>
                         <form id='contact-form' className='contact' onSubmit={this.handleSubmit.bind(this)} method='POST'>
-                            <Title>Contact me!</Title>
-            
+                            <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+                                <div><Title>Contact me!</Title></div>
+                                <div><p style={{ fontWeight: '900', paddingBottom: '10px', fontSize: '1.5rem'}}>carlosarturoandrade86@gmail.com</p></div>
+                            </div>
+
                             <fieldset>
                             <input style={{fontFamily: 'Ovo, serif', fontSize: '2rem'}} id='name' placeholder='Your name' type='text' tabindex='1' required autofocus />
                             </fieldset>
