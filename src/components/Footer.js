@@ -16,7 +16,7 @@ class Footer extends Component {
                     <a href='https://www.linkedin.com/in/carlos-andrade-580318168/'><i class="fab fa-linkedin-in fa-10x icon-3d"></i></a>
                 </div>
                 <div>
-                    <p style={{color: 'white', fontSize: '2rem' }}>Carlos Arturo Andrade &copy; 2018</p>
+                    <p style={{color: 'white', fontSize: '2rem' }}>Carlos Arturo Andrade &copy;2018</p>
                 </div>
             </FooterWrap>
         )
