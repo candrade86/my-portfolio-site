@@ -16,7 +16,7 @@ import {
     AppWrapper,
     LinkWrap,
     HeaderLinkWrap,
-    Nav 
+    Nav, 
   } from './styled-components/App';
 
 
@@ -45,10 +45,6 @@ class App extends Component {
       $('#toggle').toggleClass('active');
       $('#overlay').toggleClass('open');
      });
-    // window.onbeforeunload = function () {
-    //   window.scrollTo(0,0);
-
-    // }
 
   }
   
@@ -79,6 +75,7 @@ class App extends Component {
         <Portfolio id={'portfolio'} />
         {/* <Blog id={'blog'} /> */}
         <Contact id={'contact'} />
+        <Footer />
         
           
        

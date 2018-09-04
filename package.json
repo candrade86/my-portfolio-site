@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "add": "^2.0.6",
     "animate.css": "^3.7.0",
     "animejs": "^2.2.0",
     "axios": "^0.18.0",
@@ -19,7 +20,8 @@
     "react-scripts": "1.1.4",
     "react-scrollspy": "^3.3.5",
     "styled-components": "^3.4.2",
-    "victory": "^30.2.0"
+    "victory": "^30.2.0",
+    "yarn": "^1.9.4"
   },
   "scripts": {
     "start": "react-scripts start",
