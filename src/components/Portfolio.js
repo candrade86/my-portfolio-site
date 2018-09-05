@@ -37,7 +37,7 @@ class Portfolio extends Component {
                                     <img src={trivPicture} />
                                         
                                 <figcaption >
-                                    <div style={{width: '100%', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                                    <div style={{ cursor: 'pointer', width: '100%', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                                     <div><a onClick={()=> window.open("https://trivializer.app", "_blank")} style={{ width: 'auto', height: 'auto'}}><h2 className='focus-in-contract' >View Trivializer</h2></a> </div>
                                     </div>
                                 </figcaption>
