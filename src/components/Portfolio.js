@@ -38,7 +38,7 @@ class Portfolio extends Component {
                                         
                                 <figcaption >
                                     <div style={{width: '100%', height: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                                    <div><a style={{ width: 'auto', height: 'auto'}} href='https://trivializer.app'><h2 className='focus-in-contract' >View Trivializer</h2></a> </div>
+                                    <div><a onClick={()=> window.open("https://trivializer.app", "_blank")} style={{ width: 'auto', height: 'auto'}}><h2 className='focus-in-contract' >View Trivializer</h2></a> </div>
                                     </div>
                                 </figcaption>
                                 

@@ -205,7 +205,7 @@ class Header extends Component {
                   </ScrollAnimation>
 
                   <ScrollAnimation  animateIn='fadeInUp' style={{width: '100%'}} delay='1900' animateOnce='true'>
-                    <ButtonWrap><a href='https://resume.creddle.io/resume/7frv18zyv0u'><Button className='button'>My Résumé</Button></a></ButtonWrap>               
+                    <ButtonWrap><a onClick={()=> window.open("https://resume.creddle.io/resume/7frv18zyv0u", "_blank")}><Button className='button'>My Résumé</Button></a></ButtonWrap>               
                   </ScrollAnimation>
                 </HeaderTitle>
                 </div>
