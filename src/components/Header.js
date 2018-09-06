@@ -21,6 +21,7 @@ import $ from 'jquery';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import PDF from '../assets/resume.pdf';
+
         
     
 class Header extends Component {

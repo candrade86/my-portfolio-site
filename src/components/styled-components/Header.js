@@ -1,11 +1,23 @@
 import styled from 'styled-components';
+import nyc from '../../assets/nyc.jpg';
 
 export const Section = styled.section`
 
     position: relative;
     z-index: 6;
     height: 100vh;
-    background: #637081;
+    background-image: url(${nyc});
+
+     background-repeat: no-repeat;
+    
+    background-position: center top;
+    background-attachment: fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    background-size: cover;
 `
 
 
