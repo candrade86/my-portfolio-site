@@ -56,10 +56,10 @@ class App extends Component {
           <div className="overlay" id="overlay">
               <nav className="overlay-menu" id='menu'>
                   <ul>
-                      <li><AnchorLink id='link' href='#header'><a href="#">Top</a></AnchorLink></li>
-                      <li><AnchorLink id='link2' href='#about'><a href="#">About</a></AnchorLink></li>
-                      <li><AnchorLink id='link3' href='#portfolio'><a href="#">Portfolio</a></AnchorLink></li>
-                      <li><AnchorLink id='link4' href='#contact'><a href="#">Contact</a></AnchorLink></li>
+                      <li><AnchorLink id='link' href='#header'><a>Top</a></AnchorLink></li>
+                      <li><AnchorLink id='link2' href='#about'><a>About</a></AnchorLink></li>
+                      <li><AnchorLink id='link3' href='#portfolio'><a>Portfolio</a></AnchorLink></li>
+                      <li><AnchorLink id='link4' href='#contact'><a>Contact</a></AnchorLink></li>
                   </ul>
               </nav>
           </div>
