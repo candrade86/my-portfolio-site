@@ -24,18 +24,6 @@ import './animation-css/About.css';
 import pic from '../assets/carlos.png';
 
 
-const data = [65, 100, 80, 81, 82, 85, 80, 79];
-const labels = ['Javascript', 'React', 'React Native', 'Redux', 'Node.js', 'CSS', 'HTML5',  'MongoDB']
-let label;
-let barGraph = data.map((d,i) => {
-   return ( 
-    <li className="chart__bar" style={{width: `${d}%`}}>
-    <span className="chart__label">
-     { label = labels[i] }
-    </span>
-  </li>
-   )
-})
 
 const About = props => {
     
@@ -82,14 +70,8 @@ const About = props => {
                 
 
         
-                    <div className="charts slide-in-right">
-                        <div className="chart chart--dev">
-                        
-                        <ul className="chart--horiz">
-                            {barGraph}
-                        
-                        </ul>
-                        </div>
+                    <div className="">
+                       
                         
                     </div>
                 
