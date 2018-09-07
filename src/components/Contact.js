@@ -54,7 +54,7 @@ class Contact extends Component {
                         <form id='contact-form' className='contact' onSubmit={this.handleSubmit.bind(this)} method='POST'>
                             <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
                                 <div><Title>Contact me!</Title></div>
-                                <div><p style={{ fontWeight: '900', paddingBottom: '10px', fontSize: '1.5rem'}}>carlosarturoandrade86@gmail.com</p></div>
+                                <div><p style={{ color: '#656163', fontWeight: '900', paddingBottom: '10px', fontSize: '1.5rem'}}>carlosarturoandrade86@gmail.com</p></div>
                             </div>
 
                             <fieldset>

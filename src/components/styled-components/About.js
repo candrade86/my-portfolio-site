@@ -4,7 +4,7 @@ export const Section = styled.section`
     position: relative;
     height: 100vh;
     width: 100%;
-    background: #CEE5F2;
+    background: #E8E5E7;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -36,7 +36,7 @@ export const Title = styled.h1`
     font-family: 'Muli', sans-serif;
     font-weight: 1000;
     padding: 5px 0;
-    color: #536B78;
+    color: #656163;
 `
 
 export const LeftDiv = styled.div`
@@ -45,7 +45,7 @@ export const LeftDiv = styled.div`
     border-radius: 2%;
     overflow: auto;
     padding-top: 2%;
-    background: #7C98B3;
+    background: #B6B8B8;
     box-shadow: 0 0 11px rgba(33,33,33,.2); 
 
       @media (max-width: 879px ){
@@ -70,7 +70,7 @@ export const RightDiv = styled.div`
     height: 95%; 
     border-radius: 2%;
     padding: 2px 0;
-    background: #7C98B3;
+    background: #B6B8B8;
     box-shadow: 0 0 11px rgba(33,33,33,.2); 
     
     @media (max-width: 879px ){

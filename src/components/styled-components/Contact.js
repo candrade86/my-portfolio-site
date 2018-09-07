@@ -7,12 +7,13 @@ export const Section = styled.section`
     position: relative;
     z-index: 2;
     height: 100%;
-    background: #536B78;
+    background: #FFFFFF;
     
 `
 export const Title = styled.h3`
     font-family: 'Muli', sans-serif;
     font-size: 4rem;
+    color: #656163;
 `
 
 export const FormWrap = styled.div`

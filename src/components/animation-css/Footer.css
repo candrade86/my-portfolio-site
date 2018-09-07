@@ -9,3 +9,6 @@
     align-items: center;
   }
   
+  .icon:hover {
+    color: #B6B8B8;
+  }
