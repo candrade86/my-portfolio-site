@@ -19,7 +19,7 @@ figure {
     overflow: hidden;
     width: 60%;
     height: auto;
-    background: #3085a3;
+    background: #D0CFCF;
     text-align: center;
     z-index: 900;    
 }
@@ -83,7 +83,7 @@ figure {
 }
 
 figure.effect-apollo {
-    background: #3498db;
+    background: #D0CFCF;
 }
 
 figure.effect-apollo img {
