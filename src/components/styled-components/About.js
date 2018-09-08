@@ -94,6 +94,19 @@ export const ImageWrap = styled.div`
     
     align-items: center;
 `
+export const IconImage = styled.img`
+    width: 40%;
+    height: auto;
+`
+export const IconImageWrap = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 33.33%;
+
+    border: solid yellow;
+`
 
 export const Text = styled.p`
     font-size: 2.3rem;

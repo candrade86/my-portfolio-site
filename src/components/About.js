@@ -14,6 +14,8 @@ import {
     BoldText,
     Image,
     ImageWrap,
+    IconImage,
+    IconImageWrap,
     Top,
     Title,
     TopLeft,
@@ -22,6 +24,15 @@ import {
 import './animation-css/About.css';
 
 import pic from '../assets/carlos.png';
+import css from '../assets/css.png';
+import html from '../assets/HTML5.png';
+import js from '../assets/js.png';
+import node from '../assets/nodejs.png';
+import react from '../assets/react.png';
+import redux from '../assets/redux.png';
+import github from '../assets/github.png';
+import mongo from '../assets/mongoDB.png';
+import python from '../assets/python.png';
 
 
 
@@ -70,10 +81,30 @@ const About = props => {
                 
 
         
-                    <div className="">
-                       
+                    
+                        <div style={{ border: 'solid red', height: '100%'}}>
+                            
+                            <div style={{ border: 'solid yellow', height: '33.33%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                                <IconImageWrap><IconImage src={js}/></IconImageWrap>
+                                <IconImageWrap><IconImage src={react}/></IconImageWrap>
+                                <IconImageWrap><IconImage src={redux}/></IconImageWrap>
+                            </div>
+                            
+                            <div style={{ border: 'solid purple', width: '100%', height: '33.33%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <IconImageWrap><IconImage src={node}/></IconImageWrap>
+                                <IconImageWrap><img style={{ height: 'auto', width: '30%'}} src={css}/></IconImageWrap>
+                                <IconImageWrap><IconImage src={html}/></IconImageWrap>
+                            </div>
+
+                             <div style={{ border: 'solid yellow', height: '33.33%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                                <IconImageWrap><IconImage src={github}/></IconImageWrap>
+                                <IconImageWrap><IconImage src={mongo}/></IconImageWrap>
+                                <IconImageWrap><IconImage src={python}/></IconImageWrap>
+                            </div>
+                            
+                        </div>   
                         
-                    </div>
+                    
                 
               </ScrollAnimation>  
             </RightDiv>
