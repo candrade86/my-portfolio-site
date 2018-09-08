@@ -16,6 +16,7 @@ import {
     ImageWrap,
     IconImage,
     IconImageWrap,
+    IconImageCss,
     Top,
     Title,
     TopLeft,
@@ -82,23 +83,23 @@ const About = props => {
 
         
                     
-                        <div style={{ border: 'solid red', height: '100%'}}>
+                        <div style={{ height: '100%'}}>
                             
-                            <div style={{ border: 'solid yellow', height: '33.33%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                            <div style={{ height: '33.33%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                                 <IconImageWrap><IconImage src={js}/></IconImageWrap>
                                 <IconImageWrap><IconImage src={react}/></IconImageWrap>
                                 <IconImageWrap><IconImage src={redux}/></IconImageWrap>
                             </div>
                             
-                            <div style={{ border: 'solid purple', width: '100%', height: '33.33%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                            <div style={{ width: '100%', height: '33.33%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                                 <IconImageWrap><IconImage src={node}/></IconImageWrap>
-                                <IconImageWrap><img style={{ height: 'auto', width: '30%'}} src={css}/></IconImageWrap>
+                                <IconImageWrap><IconImageCss src={css}/></IconImageWrap>
                                 <IconImageWrap><IconImage src={html}/></IconImageWrap>
                             </div>
 
-                             <div style={{ border: 'solid yellow', height: '33.33%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                             <div style={{ height: '33.33%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                                 <IconImageWrap><IconImage src={github}/></IconImageWrap>
-                                <IconImageWrap><IconImage src={mongo}/></IconImageWrap>
+                                <IconImageWrap><IconImage style={{ width: '80%' }} src={mongo}/></IconImageWrap>
                                 <IconImageWrap><IconImage src={python}/></IconImageWrap>
                             </div>
                             

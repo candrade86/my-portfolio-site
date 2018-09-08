@@ -94,18 +94,29 @@ export const ImageWrap = styled.div`
     
     align-items: center;
 `
-export const IconImage = styled.img`
-    width: 40%;
+export const IconImage = styled.img`  
+    width: 50%;
     height: auto;
+
+     @media (max-width: 879px ){
+        padding: 10%;
+    }
 `
+export const IconImageCss = styled.img`  
+    width: 36%;
+    height: auto;
+
+     @media (max-width: 879px ){
+        padding: 6%;
+    }
+`
+
 export const IconImageWrap = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     width: 33.33%;
-
-    border: solid yellow;
 `
 
 export const Text = styled.p`
